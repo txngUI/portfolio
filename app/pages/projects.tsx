@@ -23,7 +23,7 @@ export default function Projects() {
           image="/images/portfolio.png"
           title="Portfolio"
           description="Site web de mon profil professionnel, personnel et universitaire."
-          link="https://github.com/txngUI/ChampsEtCie"
+          link="https://github.com/txngUI/portfolio"
         />
         <ProjectCard
           image="/images/pokedex.png"
@@ -41,7 +41,7 @@ export default function Projects() {
           image="/images/talkmate.png"
           title="TalkMate"
           description="Application mobile qui permet de communiquer avec des étrangers pour apprendre leurs langues."
-          link="https://github.com/txngUI/ChampsEtCie"
+          link="https://www.figma.com/design/oZHes6ud3bRGoMDhkyi6wg/Portfolio?node-id=0-1&m=dev&t=kXXVCXo0209P9fMv-1"
         />
         <div className="w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg flex text-center justify-center">
           <a
