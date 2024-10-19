@@ -45,7 +45,7 @@ export default function About() {
           link="https://github.com/txngUI"
         />
         <LinkButton text="CV" icon="/icones/download.png" link="/documents/cv.pdf" />
-        <LinkButton text="CV Vidéo" icon="/icones/video.png" link="https://www.youtube.com/@TanguyDavid85" />
+        <LinkButton text="CV Vidéo" icon="/icones/video.png" link="https://youtu.be/zvTgE99sYyQ" />
       </div>
     </div>
   );
