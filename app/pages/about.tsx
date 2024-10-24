@@ -1,32 +1,27 @@
 import { Inconsolata } from "@next/font/google";
 import LinkButton from "../components/ui/link-button";
+import { DarkMode } from "@mui/icons-material";
 
 const inconsolata = Inconsolata({
   subsets: ["latin"],
   weight: ["400", "700"],
 });
 
-export default function About() {
+export default function About({darkMode}: {darkMode: boolean}) {
   const birthday = new Date(2004, 0, 2);
   const today = new Date();
 
-  const age = today.getFullYear() - birthday.getFullYear();
+  let age = today.getFullYear() - birthday.getFullYear();
+  const monthDifference = today.getMonth() - birthday.getMonth();
 
-  if (today.getMonth() < birthday.getMonth()) {
-    return age - 1;
-  }
-
-  if (
-    today.getMonth() === birthday.getMonth() &&
-    today.getDate() < birthday.getDate()
-  ) {
-    return age - 1;
+  if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthday.getDate())) {
+    age--;
   }
 
   return (
     <div className="text-justify mt-10">
       <h1 className="title">A propos de moi</h1>
-      <p className={`${inconsolata.className} text-black opacity-50`}>
+      <p className={`${inconsolata.className} dark:text-white text-black opacity-50`}>
         Etudiant et jeune développeur de {age} ans, je me passionne dans le
         développement web et mobile mais aussi la modélisation 3D et le montage
         vidéo. <br />
@@ -38,14 +33,14 @@ export default function About() {
         NextJS et les technologies tel que React, TypeScript ainsi que Prisma et
         PostgreSQL pour la gestion de base de données.
       </p>
-      <div className=" flex justify-center mt-6">
+      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row sm:items-center md:items-center lg:justify-center xl:justify-center 2xl:justify-center items-center mt-6">
         <LinkButton
           text="txngUI"
-          icon="/icones/github.png"
+          icon={darkMode ? "/icones/github_darkmode.png" : "/icones/github.png"}
           link="https://github.com/txngUI"
         />
-        <LinkButton text="CV" icon="/icones/download.png" link="/documents/cv.pdf" />
-        <LinkButton text="CV Vidéo" icon="/icones/video.png" link="https://youtu.be/zvTgE99sYyQ" />
+        <LinkButton text="CV" icon={darkMode ? "/icones/download_darkmode.png" : "/icones/download.png"} link="/documents/cv.pdf" />
+        <LinkButton text="CV Vidéo" icon={darkMode ? "/icones/video_darkmode.png" : "/icones/video.png"} link="https://youtu.be/zvTgE99sYyQ" />
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 const flowbite = require("flowbite-react/tailwind");
 
 const config: Config = {
+  darkMode: 'class', // Activation du mode sombre via la classe "dark"
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,8 +12,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--background)",   // Utilisation de variables CSS pour les couleurs
+        foreground: "var(--foreground)",   // Elles peuvent être modifiées pour clair/sombre
       },
     },
   },
@@ -20,4 +21,5 @@ const config: Config = {
     flowbite.plugin(),
   ],
 };
+
 export default config;

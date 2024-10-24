@@ -25,7 +25,7 @@ export default function Career() {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time
-              className={`${inconsolata.className} text-lg font-bold opacity-85`}
+              className={`${inconsolata.className} text-lg font-bold opacity-85 dark:text-white dark:opacity-60`}
             >
               Août 2023 - En cours
             </Timeline.Time>
@@ -53,7 +53,7 @@ export default function Career() {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time
-              className={`${inconsolata.className} text-lg font-bold opacity-85`}
+              className={`${inconsolata.className} text-lg font-bold opacity-85 dark:text-white dark:opacity-60`}
             >
               2022 - 2025
             </Timeline.Time>
@@ -75,7 +75,7 @@ export default function Career() {
           <Timeline.Point />
           <Timeline.Content>
             <Timeline.Time
-              className={`${inconsolata.className} text-lg font-bold opacity-85`}
+              className={`${inconsolata.className} text-lg font-bold opacity-85 dark:text-white dark:opacity-60`}
             >
               2022
             </Timeline.Time>
