@@ -11,9 +11,7 @@ const titanOne = Titan_One({
   weight: ["400"],
 });
 
-import { Button, Timeline } from "flowbite-react";
-import { HiArrowNarrowRight } from "react-icons/hi";
-import SeeMoreButton from "../components/ui/see-more-button";
+import { Timeline } from "flowbite-react";
 import SimpleButton from "../components/ui/simple-button";
 
 export default function Career() {
@@ -38,10 +36,10 @@ export default function Career() {
               className={`${inconsolata.className} text-sm opacity-80`}
             >
               Développement de pages web pour le site internet au sein de
-              l'agence <b>Transport CHABAS FRAÎCHEUR</b> de{" "}
+              l&apos;agence <b>Transport CHABAS FRAÎCHEUR</b> de{" "}
               <u>Saint Fulgent (85)</u>
               &nbsp; et automatisation de tâches récurrentes. La technologie
-              utilisée a d'abord été PHP puis NextJS.
+              utilisée a d&apos;abord été PHP puis NextJS.
             </Timeline.Body>
             <SimpleButton
               title="Voir l'entreprise"
@@ -65,8 +63,8 @@ export default function Career() {
             <Timeline.Body
               className={`${inconsolata.className} text-sm opacity-80`}
             >
-              Obtention du diplôme BUT Informatique à <u>l'IUT de Laval (53)</u>
-              &nbsp; spécialisé dans la réalisation d'applications (conception,
+              Obtention du diplôme BUT Informatique à <u>l&apos;IUT de Laval (53)</u>
+              &nbsp; spécialisé dans la réalisation d&apos;applications (conception,
               développement, validation).
             </Timeline.Body>
           </Timeline.Content>
@@ -88,7 +86,7 @@ export default function Career() {
               className={`${inconsolata.className} text-sm opacity-80`}
             >
               Obtention du diplôme du baccalauréat général spécialisé en
-              Mathématique, Numérique et Sciences de l’Informatique ainsi que
+              Mathématique, Numérique et Sciences de l&apos;Informatique ainsi que
               Physique Chimie au <b>Lycée Jean 23</b>&nbsp; aux <u>Herbiers (85)</u>&nbsp;.
             </Timeline.Body>
           </Timeline.Content>

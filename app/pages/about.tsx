@@ -1,6 +1,5 @@
 import { Inconsolata } from "@next/font/google";
 import LinkButton from "../components/ui/link-button";
-import { DarkMode } from "@mui/icons-material";
 
 const inconsolata = Inconsolata({
   subsets: ["latin"],
