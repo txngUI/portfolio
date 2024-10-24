@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Portfolio Tanguy David",
   description: "Portfolio de Tanguy David",
+  icons: {
+    icon: "/icones/logo.png", 
+  },
 };
 
 export default function RootLayout({

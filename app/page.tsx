@@ -9,7 +9,18 @@ import Header from "./pages/header";
 import Projects from "./pages/projects";
 import Skills from "./pages/skills";
 
+
 export default function Home() {
+
+  // TODO
+  
+  // lien des compétences
+  // revoir le btn dark/light mode
+  // revoir les designs des buttons
+  // faire cv vidéo
+  // refaire la bio
+  // couleurs
+
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
