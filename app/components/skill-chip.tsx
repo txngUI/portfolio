@@ -1,13 +1,18 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
+
 type SkillChipProps = {
   title: string;
   icon: string;
   description: string;
 };
 
-export default function SkillChip({ title, icon, description }: SkillChipProps) {
+export default function SkillChip({
+  title,
+  icon,
+  description,
+}: SkillChipProps) {
   const [isPopoverVisible, setPopoverVisible] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -32,21 +37,21 @@ export default function SkillChip({ title, icon, description }: SkillChipProps) 
   }, []);
 
   return (
-    <div className="relative" ref={containerRef}>
+    <div className="relative bg-white" ref={containerRef}>
       <div
         onClick={togglePopover}
-        className="flex flex-row items-center justify-between w-fit mr-10 px-2 pr-8 py-2 border-2 border-gray-200 text-gray-500 rounded-md shadow-sm bg-transparent hover:shadow-md hover:cursor-pointer duration-300"
+        className="hover:bg-gray-50 flex flex-row items-center justify-center px-2 pr-8 py-2 border-2 border-gray-200 text-gray-500 rounded-md shadow-sm bg-transparent hover:shadow-md hover:cursor-pointer duration-300"
       >
         {icon && (
           <Image
             alt={title}
             src={icon}
-            width={25}
-            height={25}
+            width={15}
+            height={15}
             className="mr-2"
           />
         )}
-        <span className="text-xs font-semibold">{title}</span>
+        <span className="text-xs font-semibold ">{title}</span>
       </div>
 
       {isPopoverVisible && (
@@ -62,12 +67,7 @@ export default function SkillChip({ title, icon, description }: SkillChipProps) 
                   href="#"
                   className="block p-2 bg-gray-100 rounded-lg dark:bg-gray-700"
                 >
-                  <Image
-                    alt={title}
-                    src={icon}
-                    width={25}
-                    height={25}
-                  />
+                  <Image alt={title} src={icon} width={25} height={25}/>
                 </a>
               </div>
               <div>
@@ -76,9 +76,7 @@ export default function SkillChip({ title, icon, description }: SkillChipProps) 
                     {title}
                   </a>
                 </p>
-                <p className="mb-4 text-sm">
-                  {description}
-                </p>
+                <p className="mb-4 text-sm">{description}</p>
 
                 <div className="flex">
                   <button

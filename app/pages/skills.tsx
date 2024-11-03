@@ -1,6 +1,39 @@
 import SkillSection from "../components/skill-section";
 
 export default function Skills({ darkMode }: { darkMode: boolean }) {
+  const slugs = [
+    "typescript",
+    "javascript",
+    "dart",
+    "java",
+    "react",
+    "flutter",
+    "android",
+    "html5",
+    "css3",
+    "nodedotjs",
+    "express",
+    "nextdotjs",
+    "prisma",
+    "amazonaws",
+    "postgresql",
+    "firebase",
+    "nginx",
+    "vercel",
+    "testinglibrary",
+    "jest",
+    "cypress",
+    "docker",
+    "git",
+    "jira",
+    "github",
+    "gitlab",
+    "visualstudiocode",
+    "androidstudio",
+    "sonarqube",
+    "figma",
+  ];
+
   const data_skills = [
     {
       name_skill: "en développement web",
@@ -184,14 +217,14 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
   ];
 
   return (
-    <div className="text-justify mt-10">
+    <div className="text-justify mt-10 w-full">
       <h1 className="title">Mes compétences</h1>
       {data_skills.map((skill, index) => (
-        <SkillSection
-          key={index}
-          title={skill.name_skill}
-          skills={skill.skills}
-        />
+          <SkillSection
+            key={index}
+            title={skill.name_skill}
+            skills={skill.skills}
+          />
       ))}
     </div>
   );

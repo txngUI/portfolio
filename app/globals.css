@@ -27,8 +27,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10vh 0 2vh 0;
-  width: 60%;
   transition: background 0.3s, color 0.3s;
 }
 
@@ -51,6 +49,7 @@ body {
   color: #474747;
   opacity: 85%;
 }
+
 .dark .title {
   color: #f0f0f0;
   opacity: 100%;

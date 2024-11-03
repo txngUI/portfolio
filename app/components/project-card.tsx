@@ -1,7 +1,7 @@
 import { Inconsolata } from "@next/font/google";
 import { Titan_One } from "@next/font/google";
 import Image from "next/image";
-import SeeMoreButton from "./ui/see-more-button";
+import SeeMoreButton from "./see-more-button";
 
 type ProjectCardProps = {
   image: string;
@@ -41,10 +41,10 @@ export default function ProjectCard({
         />
       </div>
       <div className="px-4 py-2 flex-grow">
-        <p className={`${titanOne.className} dark:text-white dark:opacity-80 text-gray-500 opacity-85`}>
+        <p className={`${titanOne.className} text-justify dark:text-white dark:opacity-80 text-gray-500 opacity-85`}>
           {title}
         </p>
-        <p className={`${inconsolata.className} dark:text-white dark:opacity-40 text-sm opacity-80`}>
+        <p className={`${inconsolata.className} text-gray-400 font-light text-justify dark:text-white dark:opacity-40 text-sm `}>
           {description}
         </p>
       </div>
