@@ -4,7 +4,6 @@ import { useId } from "react";
 import { cn } from "@/lib/utils";
 
 interface DotPatternProps {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   width?: any;
   height?: any;
   x?: any;
@@ -12,6 +11,7 @@ interface DotPatternProps {
   cx?: any;
   cy?: any;
   cr?: any;
+  opacity?: number; // Ajout de la propriété opacity
   className?: string;
   [key: string]: any;
 }
@@ -23,6 +23,7 @@ export function DotPattern({
   cx = 1,
   cy = 1,
   cr = 1,
+  opacity = 1, // Valeur par défaut de l'opacité
   className,
   ...props
 }: DotPatternProps) {
@@ -47,7 +48,7 @@ export function DotPattern({
           x={x}
           y={y}
         >
-          <circle id="pattern-circle" cx={cx} cy={cy} r={cr} />
+          <circle id="pattern-circle" cx={cx} cy={cy} r={cr} opacity={opacity} />
         </pattern>
       </defs>
       <rect width="100%" height="100%" strokeWidth={0} fill={`url(#${id})`} />

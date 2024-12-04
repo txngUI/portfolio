@@ -42,12 +42,14 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <DotPattern
-        className={cn(
-          "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
-          "fixed"
-        )}
-      />
+      <div className="opacity-40">
+        <DotPattern
+          className={cn(
+            "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
+            "fixed"
+          )}
+        />
+      </div>
       {/* <button
         onClick={toggleDarkMode}
         className="fixed right-6 top-6 px-2 py-2 rounded dark:bg-[#1C1C1C] dark:hover:bg-[#1C1C1C] bg-slate-200 transition-all duration-300"
