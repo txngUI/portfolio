@@ -12,7 +12,7 @@ const titanOne = Titan_One({
 });
 
 import { Timeline } from "flowbite-react";
-import SimpleButton from "../components/simple-button";
+//import SimpleButton from "../components/simple-button";
 import BoxReveal from "../components/ui/box-reveal";
 
 export default function Studies() {
