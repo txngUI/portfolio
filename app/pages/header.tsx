@@ -1,7 +1,7 @@
 import { Inconsolata } from "@next/font/google";
 import Image from "next/image";
 import profileLightMode from "@/public/images/profile-light-mode.png";
-import profileDarkMode from "@/public/images/profile-dark-mode.png";
+// import profileDarkMode from "@/public/images/profile-dark-mode.png";
 import TypingAnimation from "../components/ui/typing-animation";
 
 const inconsolata = Inconsolata({
@@ -9,12 +9,12 @@ const inconsolata = Inconsolata({
   weight: ["400", "700"],
 });
 
-export default function Header({ darkMode }: { darkMode: boolean }) {
+export default function Header() {
   return (
     <div className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row justify-center items-center">
       <Image
         alt="profile light mode"
-        src={darkMode ? profileDarkMode : profileLightMode}
+        src={profileLightMode}
         width={150}
         height={150}
         className="2xl:mr-8 xl:mr-8 mb-2"
@@ -35,9 +35,9 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                 src="/icones/mail.png"
                 width={20}
                 height={20}
-                className="mr-2"
+                className="mr-2 opacity-60"
               />
-              tanguy.davidpro85@gmail.com
+              <p className="text-neutral-500">tanguy.davidpro85@gmail.com</p>
             </span>
           </a>
           <a
@@ -51,9 +51,9 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                 src="/icones/github.png"
                 width={20}
                 height={20}
-                className="mr-2"
+                className="mr-2 opacity-60"
               />
-              @txngUI
+              <p className="text-neutral-500">@txngUI</p>
             </span>
           </a>
           <a href="/documents/cv.pdf" target="_blank" rel="/documents/cv.pdf">
@@ -63,9 +63,9 @@ export default function Header({ darkMode }: { darkMode: boolean }) {
                 src="/icones/download.png"
                 width={20}
                 height={20}
-                className="mr-2"
+                className="mr-2 opacity-60"
               />
-              Mon CV
+              <p className="text-neutral-500">Mon CV</p>
             </span>
           </a>
         </div>
