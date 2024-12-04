@@ -1,6 +1,6 @@
 import SkillSection from "../components/skill-section";
 
-export default function Skills({ darkMode }: { darkMode: boolean }) {
+export default function Skills() {
   const data_skills = [
     {
       name_skill: "en développement web",
@@ -78,7 +78,7 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
         },
         {
           name: "C++",
-          icon: darkMode ? "/icones/c++_darkmode.png" : "/icones/c++.png",
+          icon: "/icones/c++.png",
           description:
             "C++ est un langage de programmation polyvalent et performant, dérivé du langage C, qui prend en charge la programmation orientée objet. Utilisé pour le développement de logiciels systèmes, d'applications performantes et de jeux vidéo. Sa capacité à gérer la mémoire font de lui un choix idéal pour des projets nécessitant efficacité et vitesse.",
         },
@@ -95,9 +95,7 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
       skills: [
         {
           name: "Prisma",
-          icon: darkMode
-            ? "/icones/prisma_dark_mode.png"
-            : "/icones/prisma.png",
+          icon: "/icones/prisma.png",
           description:
             "Prisma est un ORM (Object-Relational Mapping) moderne pour Node.js et TypeScript, facilitant l'interaction avec les bases de données. Il offre un modèle de données typé et génère automatiquement des requêtes SQL, ce qui améliore la productivité des développeurs. Prisma supporte plusieurs bases de données et inclut des fonctionnalités avancées comme la migration des schémas.",
         },
@@ -115,7 +113,7 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
         },
         {
           name: "SQL",
-          icon: darkMode ? "/icones/sql_darkmode.png" : "/icones/sql.png",
+          icon: "/icones/sql.png",
           description:
             "SQL (Structured Query Language) est un langage standard pour gérer et interroger des bases de données relationnelles. Il permet de créer, modifier et manipuler des données",
         },
@@ -132,9 +130,7 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
       skills: [
         {
           name: "Github",
-          icon: darkMode
-            ? "/icones/github_darkmode.png"
-            : "/icones/github_x48.png",
+          icon: "/icones/github_x48.png",
           description:
             "GitHub est une plateforme de gestion de versions basée sur Git, permettant aux développeurs de stocker, partager et collaborer sur des projets de code. Elle facilite les pull requests, les revues de code et offre des outils d'intégration continue",
         },
@@ -184,14 +180,14 @@ export default function Skills({ darkMode }: { darkMode: boolean }) {
   ];
 
   return (
-    <div className="text-justify mt-10">
+    <div className="text-justify mt-10 w-full">
       <h1 className="title">Mes compétences</h1>
       {data_skills.map((skill, index) => (
-        <SkillSection
-          key={index}
-          title={skill.name_skill}
-          skills={skill.skills}
-        />
+          <SkillSection
+            key={index}
+            title={skill.name_skill}
+            skills={skill.skills}
+          />
       ))}
     </div>
   );
