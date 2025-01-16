@@ -20,7 +20,6 @@ export default function Home() {
   // lien des compétences
   // revoir le btn dark/light mode
   // revoir les designs des buttons
-  // faire cv vidéo
   // refaire la bio
   // couleurs
 
@@ -42,6 +41,7 @@ export default function Home() {
 
   return (
     <div className="relative">
+      <div className="bg-[#FF4545] w-full h-1/2 text-center text-white py-4 z-10">RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN</div>
       <div className="opacity-40">
         <DotPattern
           className={cn(

@@ -25,7 +25,7 @@ export default function Header() {
         </p>
         <TypingAnimation
           className={`${inconsolata.className} text-2xl dark:text-white text-black opacity-50 font-thin`}
-          text="Développeur logiciel"
+          text="Développeur Fullstack"
         />
         <div className="flex flex-col sm:flex-row sm:justify-center items-center md:flex-row lg:flex-row md:justify-evenly lg:justify-evenly xl:justify-evenly 2xl:justify-evenly w-full mt-4">
           <a href="mailto:tanguy.davidpro85@gmail.com">
