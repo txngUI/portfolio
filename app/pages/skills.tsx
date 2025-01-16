@@ -6,10 +6,10 @@ export default function Skills() {
       name_skill: "en développement web",
       skills: [
         {
-          name: "PHP",
-          icon: "/icones/php.png",
+          name: "NextJS",
+          icon: "/icones/nextjs.png",
           description:
-            "PHP est un langage de script côté serveur, utilisé pour créer des pages web dynamiques. Facile à apprendre, il s'intègre bien avec des bases de données comme MySQL. Il est compatible avec la plupart des serveurs et a une grande communauté active, fournissant de nombreux outils et frameworks.",
+            "Next.js est un framework React qui permet de créer des applications web optimisées avec rendu côté serveur (SSR) et génération de sites statiques (SSG). Il offre un routage simplifié, une meilleure performance et un SEO amélioré. Avec des fonctionnalités comme l'internationalisation et les API intégrées, il est idéal pour les applications modernes et scalables.",
         },
         {
           name: "TypeScript",
@@ -18,10 +18,10 @@ export default function Skills() {
             "TypeScript est un sur-ensemble de JavaScript qui ajoute un typage statique, facilitant la détection des erreurs dès le développement. Il améliore la lisibilité et la maintenabilité du code.",
         },
         {
-          name: "NextJS",
-          icon: "/icones/nextjs.png",
+          name: "Spring",
+          icon: "/icones/spring.png",
           description:
-            "Next.js est un framework React qui permet de créer des applications web optimisées avec rendu côté serveur (SSR) et génération de sites statiques (SSG). Il offre un routage simplifié, une meilleure performance et un SEO amélioré. Avec des fonctionnalités comme l'internationalisation et les API intégrées, il est idéal pour les applications modernes et scalables.",
+            "Spring est un framework Java qui facilite le développement d'applications d'entreprise. Il fournit une architecture modulaire, des fonctionnalités de sécurité et de gestion de la configuration, ainsi que des outils pour l'intégration avec d'autres frameworks.",
         },
         {
           name: "JavaScript",
@@ -52,6 +52,12 @@ export default function Skills() {
           icon: "/icones/nodejs.png",
           description:
             "Node.js est un environnement d'exécution JavaScript côté serveur. Il utilise un modèle asynchrone et événementiel, optimisant la gestion des connexions simultanées. Avec un vaste écosystème de packages via npm, Node.js facilite le développement d'applications full-stack et d'API REST.",
+        },
+        {
+          name: "PHP",
+          icon: "/icones/php.png",
+          description:
+            "PHP est un langage de script côté serveur, utilisé pour créer des pages web dynamiques. Facile à apprendre, il s'intègre bien avec des bases de données comme MySQL. Il est compatible avec la plupart des serveurs et a une grande communauté active, fournissant de nombreux outils et frameworks.",
         },
         {
           name: "HTML",
@@ -183,11 +189,11 @@ export default function Skills() {
     <div className="text-justify mt-10 w-full">
       <h1 className="title">Mes compétences</h1>
       {data_skills.map((skill, index) => (
-          <SkillSection
-            key={index}
-            title={skill.name_skill}
-            skills={skill.skills}
-          />
+        <SkillSection
+          key={index}
+          title={skill.name_skill}
+          skills={skill.skills}
+        />
       ))}
     </div>
   );

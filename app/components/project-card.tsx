@@ -8,6 +8,7 @@ type ProjectCardProps = {
   title: string;
   description: string;
   link: string;
+  icones?: Icone[];
 };
 
 const inconsolata = Inconsolata({
@@ -25,6 +26,7 @@ export default function ProjectCard({
   title,
   description,
   link,
+  icones,
 }: ProjectCardProps) {
   return (
     <div className="w-full max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg border-gray-500 shadow-[0_0_10px_1px_rgba(156,163,175,0.5)] dark:shadow-[0_0_4px_4px_rgba(128,128,128,0.1)] dark:hover:shadow-[0_0_4px_4px_rgba(128,128,128,0.2)] hover:shadow-[0_0_10px_5px_rgba(156,163,175,0.5)] transition duration-300 rounded-2xl flex flex-col">
@@ -45,14 +47,27 @@ export default function ProjectCard({
           {title}
         </p>
         <p
-          className={`${inconsolata.className} text-gray-400 font-light text-justify dark:ext-white dark:opacity-40 text-xs `}
+          className={`${inconsolata.className} text-gray-400 font-light text-justify dark:ext-white dark:opacity-40 text-xs normal-case`}
         >
           {description}
         </p>
       </div>
       {link && (
-        <div className="px-4 py-2">
+        <div className="px-4 py-2 flex justify-between items-center">
           <SeeMoreButton link={link} />
+          <div className="flex">
+            {icones &&
+              icones.map((icone) => (
+                <Image
+                  key={icone.src}
+                  alt={icone.alt}
+                  src={icone.src}
+                  width={20}
+                  height={20}
+                  className="mr-2"
+                />
+              ))}
+          </div>
         </div>
       )}
     </div>
