@@ -1,47 +1,39 @@
 "use client";
 
-// import ModeNightIcon from "@mui/icons-material/ModeNight";
-// import LightModeIcon from "@mui/icons-material/LightMode";
-// import { useState, useEffect } from "react";
-import About from "./pages/about";
-import Header from "./pages/header";
-import Projects from "./pages/projects";
-import Skills from "./pages/skills";
+import ModeNightIcon from "@mui/icons-material/ModeNight";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import { useEffect } from "react";
+import About from "./components/about-page/about";
+import Header from "./components/header";
+import Projects from "./components/projects-page/projects";
+import Skills from "./components/skills-page/skills";
 import { cn } from "@/lib/utils";
 import DotPattern from "./components/ui/dot-pattern";
 import BlurFade from "./components/ui/blur-fade";
 // import { Video } from "./components/video";
-import Studies from "./pages/studies";
-import Experience from "./pages/experience";
+import Studies from "./components/experience-page/studies";
+import Experience from "./components/experience-page/experience";
+import { useDarkModeStore } from "@/lib/store";
 
 export default function Home() {
-  // TODO
+  const {darkMode, toggleDarkMode} = useDarkModeStore();
 
-  // lien des compétences
-  // revoir le btn dark/light mode
-  // revoir les designs des buttons
-  // refaire la bio
-  // couleurs
-
-  // const [darkMode, setDarkMode] = useState(false);
-
-  // useEffect(() => {
-  //   if (darkMode) {
-  //     document.documentElement.classList.add("dark");
-  //   } else {
-  //     document.documentElement.classList.remove("dark");
-  //   }
-  // }, [darkMode]);
-
-  // const toggleDarkMode = () => {
-  //   setDarkMode(!darkMode);
-  // };
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   const BLUR_FADE_DELAY = 0.25;
 
   return (
-    <div className="relative">
-      <div className="bg-[#FF4545] w-full h-1/2 text-center text-white py-4 z-10">RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN</div>
+    <div className="relative text-[var(--foreground)] bg-[var(--background)] font-sans flex flex-col transition-colors duration-300">
+      <div className="bg-announce w-full h-1/2 text-center text-white py-4 z-10">
+        RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT
+        FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN
+      </div>
       <div className="opacity-40">
         <DotPattern
           className={cn(
@@ -50,28 +42,21 @@ export default function Home() {
           )}
         />
       </div>
-      {/* <button
-        onClick={toggleDarkMode}
-        className="fixed right-6 top-6 px-2 py-2 rounded dark:bg-[#1C1C1C] dark:hover:bg-[#1C1C1C] bg-slate-200 transition-all duration-300"
-      >
-        {darkMode ? (
-          <LightModeIcon style={{ color: "#4E4E4E" }} />
-        ) : (
-          <ModeNightIcon style={{ color: "#C1C1C1" }} />
-        )}
-      </button> */}
       <main
-        style={{
-          width: "50%",
-          fontFamily: "Arial, Helvetica, sans-serif",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          margin: "50px auto",
-          transition: "background 0.3s, color 0.3s",
-        }}
+        className="w-1/2 font-sans flex flex-col justify-center items-center my-12 mx-auto transition-colors duration-300"
       >
+        <div className="flex justify-end w-full">
+          <button
+            onClick={toggleDarkMode}
+            className="px-2 py-2 rounded dark:bg-[#1C1C1C] dark:hover:bg-[#1C1C1C] bg-slate-200 transition-all duration-300"
+          >
+            {darkMode ? (
+              <LightModeIcon style={{ color: "#4E4E4E" }} />
+            ) : (
+              <ModeNightIcon style={{ color: "#C1C1C1" }} />
+            )}
+          </button>
+        </div>
         <BlurFade className="w-full" delay={BLUR_FADE_DELAY}>
           <Header />
         </BlurFade>

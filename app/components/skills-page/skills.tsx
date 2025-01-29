@@ -1,4 +1,4 @@
-import SkillSection from "../components/skill-section";
+import SkillSection from "./skill-section";
 
 export default function Skills() {
   const data_skills = [
@@ -134,6 +134,12 @@ export default function Skills() {
     {
       name_skill: "en gestion de projet",
       skills: [
+        {
+          name: "Git",
+          icon: "/icones/git.png",
+          description:
+            "Git est un système de contrôle de version distribué, utilisé pour suivre les modifications du code source et faciliter la collaboration entre développeurs. Il permet de gérer les branches, de fusionner les modifications et de suivre l'historique des commits.",
+        },
         {
           name: "Github",
           icon: "/icones/github_x48.png",

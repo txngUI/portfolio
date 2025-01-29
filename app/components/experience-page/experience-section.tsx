@@ -1,8 +1,8 @@
 import { Timeline } from "flowbite-react";
-import SimpleButton from "../components/simple-button";
+import SimpleButton from "@/app/components/simple-button";
 import { Inconsolata } from "@next/font/google";
 import { Titan_One } from "@next/font/google";
-import BoxReveal from "../components/ui/box-reveal";
+import BoxReveal from "@/app/components/ui/box-reveal";
 
 const inconsolata = Inconsolata({
   subsets: ["latin"],

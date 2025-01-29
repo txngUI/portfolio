@@ -1,5 +1,5 @@
 import { Inconsolata } from "@next/font/google";
-import NumberTicker from "../components/ui/number-ticker";
+import NumberTicker from "@/app/components/ui/number-ticker";
 // import Image from "next/image";
 
 const inconsolata = Inconsolata({

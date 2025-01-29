@@ -1,26 +1,16 @@
 import Image from "next/image";
 
 import { Timeline } from "flowbite-react";
-import { ExperienceSection } from "../components/experience-section";
+import { ExperienceSection } from "@/app/components/experience-page/experience-section";
 
 export default function Experience() {
   const descriptionTCSandwichCourse: JSX.Element = (
     <>
       <p>
-        Développement de l&apos;application intranet au sein de l&apos;agence
-        Transport CHABAS Fraîcheur de Saint Fulgent (85). J&apos;ai notamment
-        développé en{" "}
-        <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
-          <Image
-            alt="PHP"
-            src="/icones/php.png"
-            width={20}
-            height={20}
-            className="mr-2"
-          />
-          PHP
-        </span>{" "}
-        et{" "}
+        Conception et implémentation de l&apos;application web intranet de
+        l&apos;agence Vendée permettant la saisie et l&apos;analyse de données
+        de l&apos;entreprise.
+        <br />- Développement du site sous le framework {" "}
         <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             alt="NextJS"
@@ -42,7 +32,7 @@ export default function Experience() {
           />
           React
         </span>
-        ,{" "}
+        {" "}et{" "}
         <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             alt="TypeScript"
@@ -53,7 +43,18 @@ export default function Experience() {
           />
           TypeScript
         </span>
-        ,{" "}
+        <br />- Réalisation des maquettes de l&apos;interface utilisateur avec{" "}
+        <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+          <Image
+            alt="Figma"
+            src="/icones/figma.png"
+            width={20}
+            height={20}
+            className="mr-2"
+          />
+          Figma
+        </span>
+        <br />- Gestion de la base de données avec {" "}
         <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             alt="PostgreSQL"
@@ -74,18 +75,6 @@ export default function Experience() {
             className="mr-2"
           />
           Prisma
-        </span>
-        . L&apos;automatisation de certaines tâches récurrentes s&apos;est faite
-        à l&apos;aide du langage de programmation natif de Microsoft, le{" "}
-        <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
-          <Image
-            alt="VBA"
-            src="/icones/vba.png"
-            width={20}
-            height={20}
-            className="mr-2"
-          />
-          VBA
         </span>
         . J&apos;ai également eu l&apos;occasion de me former à{" "}
         <span className="inline-flex items-center align-middle rounded border border-neutral-200 bg-neutral-50 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">

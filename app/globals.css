@@ -9,6 +9,8 @@
 :root {
   --background: #ffffff;
   --foreground: #0a0a0a;
+  --icones: 676767;
+  --announce: #1E3A8A;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,16 +20,8 @@
 .dark {
   --background: #0a0a0a; /* Couleur de fond pour le mode sombre */
   --foreground: #0a0a0a; /* Couleur de texte pour le mode sombre */
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: background 0.3s, color 0.3s;
+  --icones: #b3b8c1;
+  --announce: #1E3A8A;
 }
 
 @media screen and (max-width: 768px) {
@@ -40,17 +34,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-.title {
-  font-size: 30px;
-  margin-bottom: 1rem;
-  font-family: "Inconsolata", monospace;
-  color: #474747;
-  opacity: 85%;
-}
-
-.dark .title {
-  color: #f0f0f0;
-  opacity: 100%;
 }
