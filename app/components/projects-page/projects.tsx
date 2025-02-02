@@ -23,18 +23,12 @@ export default function Projects() {
           <ProjectCard
             image="/images/recipe_hub.png"
             title="Recipe Hub"
-            description=" Application web avec espace compte 
-            permettant de gérer efficacement toutes 
-            les facettes de votre cuisine. Elle centralise 
-            vos recettes, répertorie vos équipements, 
-            organise vos listes d'achats et planifie vos 
-            courses ainsi que vos repas. J'ai appris à développer avec Spring Boot en autodidacte."
+            description="Application web avec espace compte permettant de gérer efficacement toutes  les facettes de votre cuisine. Elle centralise vos recettes, répertorie vos équipements,  organise vos listes d'achats et planifie vos courses ainsi que vos repas. J'ai appris à développer avec Spring Boot en autodidacte. "
             link="https://github.com/txngUI/recipehub"
             icones={[
               { src: "/icones/java.png", alt: "Java" },
               { src: "/icones/spring.png", alt: "Spring" },
-              { src: "/icones/react.png", alt: "React" },
-              { src: "/icones/typescript.png", alt: "Typescript" },
+              { src: "/icones/angular.png", alt: "Angular" },
             ]}
           />
           <ProjectCard

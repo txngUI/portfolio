@@ -1,19 +1,14 @@
 "use client";
 
-import ModeNightIcon from "@mui/icons-material/ModeNight";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import { useEffect } from "react";
-import About from "./components/about-page/about";
-import Header from "./components/header";
-import Projects from "./components/projects-page/projects";
-import Skills from "./components/skills-page/skills";
+import About from "./pages/about";
+import Header from "./pages/header";
+import Projects from "./pages/projects";
+import Skills from "./pages/skills";
 import { cn } from "@/lib/utils";
 import DotPattern from "./components/ui/dot-pattern";
 import BlurFade from "./components/ui/blur-fade";
-// import { Video } from "./components/video";
-import Studies from "./components/experience-page/studies";
-import Experience from "./components/experience-page/experience";
-import { useDarkModeStore } from "@/lib/store";
+import Studies from "./pages/studies";
+import Experience from "./pages/experience";
 
 export default function Home() {
   const {darkMode, toggleDarkMode} = useDarkModeStore();
@@ -29,11 +24,8 @@ export default function Home() {
   const BLUR_FADE_DELAY = 0.25;
 
   return (
-    <div className="relative text-[var(--foreground)] bg-[var(--background)] font-sans flex flex-col transition-colors duration-300">
-      <div className="bg-announce w-full h-1/2 text-center text-white py-4 z-10">
-        RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT
-        FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN
-      </div>
+    <div className="relative">
+      <div className="w-full h-1/2 text-center text-white bg-[#1E3A8A] py-4 z-10">RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN</div>
       <div className="opacity-40">
         <DotPattern
           className={cn(
