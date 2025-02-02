@@ -23,31 +23,25 @@ export default function Projects() {
           <ProjectCard
             image="/images/recipe_hub.png"
             title="Recipe Hub"
-            description=" Application web avec espace compte 
-            permettant de gérer efficacement toutes 
-            les facettes de votre cuisine. Elle centralise 
-            vos recettes, répertorie vos équipements, 
-            organise vos listes d'achats et planifie vos 
-            courses. J'ai appris à développer avec Spring Boot en autodidacte."
+            description="Application web avec espace compte permettant de gérer efficacement toutes  les facettes de votre cuisine. Elle centralise vos recettes, répertorie vos équipements,  organise vos listes d'achats et planifie vos courses ainsi que vos repas. J'ai appris à développer avec Spring Boot en autodidacte."
             link="https://github.com/txngUI/recipehub"
             icones={[
               { src: "/icones/java.png", alt: "Java" },
               { src: "/icones/spring.png", alt: "Spring" },
-              { src: "/icones/react.png", alt: "React" },
-              { src: "/icones/typescript.png", alt: "Typescript" },
+              { src: "/icones/angular.png", alt: "Angular" }
             ]}
           />
           <ProjectCard
             image="/images/champsAndCie.png"
             title="Champs & Cie"
-            description="Application mobile qui permet d’en savoir plus sur les différents personnages du jeu League Of Legends."
+            description="Champs&Cie est une application mobile permettant de visualiser tous les personnagesb du jeu vidéo League of Legends. Vous pouvez rechercher un champion en fonction de son rôle dans le jeu ou de son type d'énergie. Une fois trouvé, vous aurez accès à des informations détaillées sur lui ainsi qu'à des conseils pour le jouer."
             link="https://github.com/txngUI/ChampsEtCie"
             icones={[{ src: "/icones/java.png", alt: "Java" }]}
           />
           <ProjectCard
             image="/images/pokedex.png"
             title="Pokedex"
-            description="Projet web qui permet la collection des Pokémons en tant que dresseur."
+            description="Ce projet web fait partie des projets effectués dans le cadre de mon BUT Informatique afin de prendre en main la bibliothèque React JS. L'application utilise l'API Pokémon et permet aux utilisateurs de se connecter, de rechercher un Pokémon, de l'ajouter à leur Pokédex ou de le visualiser."
             link="https://github.com/txngUI/Pokedex"
             icones={[{ src: "/icones/react.png", alt: "React" }]}
           />
@@ -55,7 +49,7 @@ export default function Projects() {
           <ProjectCard
             image="/images/talkmate.png"
             title="TalkMate"
-            description="Application mobile qui permet de communiquer avec des étrangers pour apprendre leurs langues."
+            description="Talkmate est une application web et mobile conçue pour mettre en relation des correspondants étrangers afin de favoriser l’apprentissage des langues. Son atout principal réside dans la mise en relation des utilisateurs en fonction de leurs centres d’intérêt communs. Actuellement, le projet en est encore au stade de maquettage et n’a pas encore été lancé en raison de sa complexité et de l’ampleur du développement nécessaire."
             link=""
           />
         </div>

@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <div className="bg-[#FF4545] w-full h-1/2 text-center text-white py-4 z-10">RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN</div>
+      <div className="bg-[#1E3A8A] w-full h-1/2 text-center text-white py-4 z-10">RECHERCHE ACTIVEMENT UNE ALTERNANCE POUR MON MASTERE EN DEVELOPPEMENT FULLSTACK SUR RENNES OU NANTES POUR SEPTEMBRE PROCHAIN</div>
       <div className="opacity-40">
         <DotPattern
           className={cn(
