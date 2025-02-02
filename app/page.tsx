@@ -1,8 +1,5 @@
 "use client";
 
-// import ModeNightIcon from "@mui/icons-material/ModeNight";
-// import LightModeIcon from "@mui/icons-material/LightMode";
-// import { useState, useEffect } from "react";
 import About from "./pages/about";
 import Header from "./pages/header";
 import Projects from "./pages/projects";
@@ -10,7 +7,6 @@ import Skills from "./pages/skills";
 import { cn } from "@/lib/utils";
 import DotPattern from "./components/ui/dot-pattern";
 import BlurFade from "./components/ui/blur-fade";
-// import { Video } from "./components/video";
 import Studies from "./pages/studies";
 import Experience from "./pages/experience";
 
