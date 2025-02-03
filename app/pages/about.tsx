@@ -33,7 +33,7 @@ export default function About() {
           className="text-black text-opacity-50"
           value={age}
         />{" "}
-        ans, je suis en <b>troisième année de BUT Informatique</b> (parcours A), cursus dans lequel
+        ans, je suis en <b>troisième année de BUT Informatique</b>, cursus dans lequel
         je me spécialise dans la <b>réalisation d&apos;applications</b>, englobant la
         conception, le développement et la validation. Ma <b>passion</b> pour le
         développement s&apos;est développée au fil des années, me poussant à

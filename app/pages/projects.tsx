@@ -22,7 +22,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 bg-white md:grid-cols-2 lg:grid-cols-2 gap-y-8 gap-x-4 justify-items-center rounded-3xl p-3">
           <ProjectCard
             image="/images/recipe_hub.png"
-            title="Recipe Hub"
+            title="RecipeHub"
             description="Application web avec espace compte permettant de gérer efficacement toutes  les facettes de votre cuisine. Elle centralise vos recettes, répertorie vos équipements,  organise vos listes d'achats et planifie vos courses ainsi que vos repas. J'ai appris à développer avec Spring Boot en autodidacte."
             link="https://github.com/txngUI/recipehub"
             icones={[
