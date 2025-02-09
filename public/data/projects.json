@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Champs&Cie",
+      "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
+      "image": "/images/champs_cie.png",
+      "link": "https://github.com/txngUI/ChampsEtCie.git",
+      "icones": [
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        },
+        {
+          "name": "Android Studio",
+          "image": "/icones/android_studio.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "RecipeHub",
+      "description": "Application web qui répertorie vos recettes et équipements de cuisine et vous permet de préparer vos listes de courses et vos repas.",
+      "image": "/images/recipe_hub.png",
+      "link": "https://github.com/txngUI/recipehub.git",
+      "icones": [
+        {
+          "name": "Angular",
+          "image": "/icones/angular.png"
+        },
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        },
+        {
+          "name": "Spring",
+          "image": "/icones/spring.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rental Agency",
+      "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
+      "image": "/images/rental_agency.png",
+      "link": "https://github.com/txngUI/RentalAgency",
+      "icones": [
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        },
+        {
+          "name": "JUnit",
+          "image": "/icones/junit.png"
+        }
+      ]
+    }
+  ]
+}

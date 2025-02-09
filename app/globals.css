@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #F0F0F0;
+  --announce-bg: #1E3A8A;
+  --announce-font: #ffffff;
+  --font-color: #7F7F7F;
+  --border-color: #7f7f7f38;
+  --title-color: #000000;
+}
+
+.dark {
+  --background: #06130F;
+  --foreground: #000000;
+  --announce-bg: #E4E7E6;
+  --announce-font: #06130F;
+  --font-color: #CFCCCC;
+  --border-color: #203c333b;
+  --title-color: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--font-color);
+}
