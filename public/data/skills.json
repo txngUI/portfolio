@@ -1,0 +1,149 @@
+{
+  "skills": [
+    {
+      "skillsection": "En développement web",
+      "chips": [
+        {
+          "title": "NextJS",
+          "icone": "nextjs.png",
+          "iconedarkmode": "nextjs.png"
+        },
+        {
+          "title": "ReactJS",
+          "icone": "react.png",
+          "iconedarkmode": "react.png"
+        },
+        {
+          "title": "TypeScript",
+          "icone": "typescript.png",
+          "iconedarkmode": "typescript.png"
+        },
+        {
+          "title": "JavaScript",
+          "icone": "javascript.png",
+          "iconedarkmode": "javascript.png"
+        },
+        {
+          "title": "TailwindCSS",
+          "icone": "tailwindcss.png",
+          "iconedarkmode": "tailwindcss.png"
+        },
+        {
+          "title": "NodeJS",
+          "icone": "nodejs.png",
+          "iconedarkmode": "nodejs.png"
+        },
+        {
+          "title": "AngularJS",
+          "icone": "angular.png",
+          "iconedarkmode": "angular.png"
+        },
+        {
+          "title": "Spring",
+          "icone": "spring.png",
+          "iconedarkmode": "spring.png"
+        }
+      ]
+    },
+    {
+      "skillsection": "En programmation orientée objet",
+      "chips": [
+        {
+          "title": "Java",
+          "icone": "java.png",
+          "iconedarkmode": "java.png"
+        },
+        {
+          "title": "C++",
+          "icone": "c++.png",
+          "iconedarkmode": "c++_darkmode.png"
+        },
+        {
+          "title": "Python",
+          "icone": "python.png",
+          "iconedarkmode": "python.png"
+        }
+      ]
+    },
+    {
+      "skillsection": "En base de données",
+      "chips": [
+        {
+          "title": "SQL",
+          "icone": "sql.png",
+          "iconedarkmode": "sql_darkmode.png"
+        },
+        {
+          "title": "NoSQL",
+          "icone": "sql.png",
+          "iconedarkmode": "sql_darkmode.png"
+        },
+        {
+          "title": "MongoDB",
+          "icone": "mongodb.png",
+          "iconedarkmode": "mongodb.png"
+        },
+        {
+          "title": "PostgreSQL",
+          "icone": "postgresql.png",
+          "iconedarkmode": "postgresql.png"
+        },
+        {
+          "title": "Prisma",
+          "icone": "prisma.png",
+          "iconedarkmode": "prisma_dark_mode.png"
+        }
+      ]
+    },
+    {
+      "skillsection": "En gestion de projet",
+      "chips": [
+        {
+          "title": "Git",
+          "icone": "git.png",
+          "iconedarkmode": "git.png"
+        },
+        {
+          "title": "Github",
+          "icone": "github.png",
+          "iconedarkmode": "github_darkmode.png"
+        },
+        {
+          "title": "Figma",
+          "icone": "figma.png",
+          "iconedarkmode": "figma.png"
+        },
+        {
+          "title": "Jira",
+          "icone": "jira.png",
+          "iconedarkmode": "jira.png"
+        },
+        {
+          "title": "Trello",
+          "icone": "trello.png",
+          "iconedarkmode": "trello.png"
+        }
+      ]
+    },
+    {
+      "skillsection": "Autres",
+      "chips": [
+        {
+          "title": "Docker",
+          "icone": "docker.png",
+          "iconedarkmode": "docker.png"
+        },
+        {
+          "title": "Blender",
+          "icone": "blender.png",
+          "iconedarkmode": "blender.png"
+        },
+        {
+          "title": "Unreal Engine",
+          "icone": "unreal_engine.png",
+          "iconedarkmode": "unreal_engine_darkmode.png"
+        }
+      ]
+    }
+  ]
+}

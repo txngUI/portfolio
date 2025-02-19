@@ -9,7 +9,7 @@ export default function ToggleSwitch() {
   const isUniversityActive = pathname === "/portfolio-universitaire";
 
   return (
-    <div className="flex mb-10 border-2 border-bordercolor bg-foreground rounded-full p-1 w-fit h-fit mx-auto">
+    <div className="flex mb-10 border-2 border-bordercolor bg-foreground rounded-full p-1 w-fit h-fit mx-auto my-6">
       <button
         onClick={() => router.push("/")}
         className={`flex-1 px-4 py-1 text-center rounded-full transition whitespace-nowrap ${

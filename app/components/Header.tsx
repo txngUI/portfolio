@@ -9,7 +9,7 @@ const inconsolata = Inconsolata({
 
 export default function Header() {
   return (
-    <div className="flex items-center justify-center w-full">
+    <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row items-center justify-center w-full">
       <Image
         src={ProfileImg}
         alt="Tanguy DAVID"

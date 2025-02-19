@@ -1,0 +1,68 @@
+{
+  "codes": [
+    {
+      "id": 1,
+      "name": "Rental Agency",
+      "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
+      "image": "/images/rental_agency.png",
+      "link": "https://github.com/txngUI/RentalAgency",
+      "type": "code",
+      "icones": [
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        },
+        {
+          "name": "JUnit",
+          "image": "/icones/junit.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Path optimization",
+      "description": "Ce code met en oeuvre les différentes méthodes d'optimisation pour aller d'un point A à un point B en passant par des points intermédiaires.",
+      "image": "/images/optimize_paths.png",
+      "link": "https://github.com/txngUI/optimize_paths.git",
+      "type": "code",
+      "icones": [
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "LogisticoTrain",
+      "description": "LogisticoTrain est une application conçue pour gérer les arrivées, départs et opérations de maintenance des rames.",
+      "image": "/images/logistico_train.png",
+      "link": "https://github.com/txngUI/logisticoTrain.git",
+      "type": "code",
+      "icones": [
+        {
+          "name": "Python",
+          "image": "/icones/python.png"
+        },
+        {
+          "name": "MongoDB",
+          "image": "/icones/mongodb.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dungeons",
+      "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
+      "image": "/images/dungeon.png",
+      "link": "https://github.com/txngUI/Dungeon.git",
+      "type": "code",
+      "icones": [
+        {
+          "name": "Java",
+          "image": "/icones/java.png"
+        }
+      ]
+    }
+  ]
+}

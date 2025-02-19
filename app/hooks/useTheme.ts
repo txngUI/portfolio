@@ -9,6 +9,8 @@ export function useTheme() {
     
     setTheme(storedTheme);
     document.documentElement.classList.toggle("dark", storedTheme === "dark");
+
+    console.log(theme);
   }, []);
 
   const toggleTheme = () => {

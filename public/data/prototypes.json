@@ -1,0 +1,22 @@
+{
+  "prototypes": [
+    {
+      "id": 1,
+      "name": "Talkmate",
+      "description": "Talkmate est une application mobile qui permet de trouver des partenaires de conversation pour pratiquer une langue étrangère.",
+      "image": "/images/talkmate.png",
+      "link": "https://www.figma.com/design/3VZoJc3JEhJ7SQY5eWcHmt/TalkMate?node-id=0-1&t=K63DQ56X9SeR6jKA-1",
+      "type": "prototype",
+      "icones": []
+    },
+    {
+      "id": 2,
+      "name": "Chez Tim",
+      "description": "Chez Tim est la maquette d'une application mobile permettant aux employés d'une pizzeria de gérer les commandes.",
+      "image": "/images/pizzaiolo.png",
+      "link": "https://www.figma.com/design/H4OVluG5YmXghhpL55i79q/applis?node-id=0-1&t=YxvVoNMLbtU1Vl30-1",
+      "type": "prototype",
+      "icones": []
+    }
+  ]
+}

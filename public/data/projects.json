@@ -6,6 +6,7 @@
       "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
       "image": "/images/champs_cie.png",
       "link": "https://github.com/txngUI/ChampsEtCie.git",
+      "type": "project",
       "icones": [
         {
           "name": "Java",
@@ -23,6 +24,7 @@
       "description": "Application web qui répertorie vos recettes et équipements de cuisine et vous permet de préparer vos listes de courses et vos repas.",
       "image": "/images/recipe_hub.png",
       "link": "https://github.com/txngUI/recipehub.git",
+      "type": "project",
       "icones": [
         {
           "name": "Angular",
@@ -40,18 +42,41 @@
     },
     {
       "id": 3,
-      "name": "Rental Agency",
-      "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
-      "image": "/images/rental_agency.png",
-      "link": "https://github.com/txngUI/RentalAgency",
+      "name": "Pokedex",
+      "description": "Pokedex est un projet réalisé dans le cadre de mon BUT Informatique pour apprendre l'environnement web React et MUI.",
+      "image": "/images/pokedex.png",
+      "link": "https://github.com/txngUI/Pokedex.git",
+      "type": "project",
       "icones": [
         {
-          "name": "Java",
-          "image": "/icones/java.png"
+          "name": "React",
+          "image": "/icones/react.png"
         },
         {
-          "name": "JUnit",
-          "image": "/icones/junit.png"
+          "name": "ViteJS",
+          "image": "/icones/vitejs.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "IUT LAVAL Gestion des notes",
+      "description": "Ce projet est une application web permettant de visualiser les notes des étudiants de l'IUT de Laval avec un espace compte professeur.",
+      "image": "/images/iut_grades.png",
+      "link": "https://github.com/EAnathos/iut-laval-grades-api-main.git",
+      "type": "project",
+      "icones": [
+        {
+          "name": "NextJS",
+          "image": "/icones/nextjs.png"
+        },
+        {
+          "name": "Jest",
+          "image": "/icones/jest.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "/icones/postgresql.png"
         }
       ]
     }

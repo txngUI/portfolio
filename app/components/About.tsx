@@ -23,7 +23,7 @@ export default function About() {
         me prépare à intégrer le mastère en développement fullstack de Sup de
         Vinci à Rennes.
       </p>
-      <div className="flex justify-evenly w-full mt-4">
+      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row justify-evenly w-full mt-4">
         <ContactButton
           text="tanguy.davidpro85@gmail.com"
           link="mailto:tanguy.davidpro85@gmail.com"
