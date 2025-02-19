@@ -19,7 +19,7 @@ export default async function Home() {
       <ThemeToggle />
       <main className="w-4/5 mx-auto">
         <ToggleSwitch />
-        <div className="w-full">
+        <div className="w-full flex flex-col items-center justify-center">
           <SwitchYear />
           <SwitchSkill />
         </div>

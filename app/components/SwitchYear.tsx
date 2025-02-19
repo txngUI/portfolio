@@ -29,23 +29,21 @@ export default function SwitchYear() {
   const router = useRouter();
 
   return (
-    <div>
-      <div className="w-full flex justify-around items-center">
-        {years.map((y) => (
-          <button
-            key={y.id}
-            onClick={() => {
-              setAcademicYear(y.id);
-              router.refresh();
-            }}
-            className={`flex items-center px-2 py-1 border-[1px] border-bordercolor rounded-md bg-background hover:bg-bordercolor hover:border-background transition-colors ${
-              academicYear === y.id ? "bg-bordercolor border-none" : ""
-            }`}
-          >
-            {y.name}
-          </button>
-        ))}
-      </div>
+    <div className="w-1/2 flex justify-around items-center">
+      {years.map((y) => (
+        <button
+          key={y.id}
+          onClick={() => {
+            setAcademicYear(y.id);
+            router.refresh();
+          }}
+          className={`flex items-center px-4 py-2 border-[1px] border-bordercolor rounded-md bg-background hover:bg-bordercolor hover:border-background transition-colors ${
+            academicYear === y.id ? "bg-bordercolor border-none" : ""
+          }`}
+        >
+          {y.name}
+        </button>
+      ))}
     </div>
   );
 }
