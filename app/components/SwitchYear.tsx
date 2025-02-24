@@ -37,7 +37,7 @@ export default function SwitchYear({ year }: { year: number }) {
             setAcademicYear(y.id);
             router.refresh();
           }}
-          className={`flex items-center px-4 py-2 border-b-2 border-bordercolor bg-background hover:border-b-4 hover:text-white transition-colors ${
+          className={`flex items-center px-4 py-2 border-b-2 border-bordercolor bg-background hover:border-b-4 hover:text-titlecolor transition-colors ${
             year === y.id ? " border-b-4" : ""
           }`}
         >
