@@ -13,7 +13,7 @@ type CodeCardProps = {
 
 export default function CodeCard({ project }: CodeCardProps) {
   return (
-    <div className="flex flex-col items-center max-w-64 min-w-64 h-min-64 border-2 border-bordercolor rounded-[10px]">
+    <div className="flex flex-col items-center max-w-64 w-full border-2 border-bordercolor rounded-[10px]">
       <Image
         src={project.image}
         alt={project.name}

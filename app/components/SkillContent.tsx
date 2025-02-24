@@ -116,8 +116,10 @@ export default function SkillContent({
           </tr>
         </tbody>
       </table>
-      <p className="text-xl mt-8 mb-8 text-left w-full">Traces : </p>
-      <div>
+      {yearContent[3].length > 0 && (
+        <p className="text-xl mt-8 mb-8 text-left w-full">Traces :</p>
+      )}
+      <div className="w-1/2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 self-center w-full px-4">
           {yearContent[3].map((e) => {
             const project = e as Project;

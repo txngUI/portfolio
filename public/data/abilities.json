@@ -111,6 +111,20 @@
               "link": "",
               "type": "simple",
               "icones": []
+            },
+            {
+              "id": 6,
+              "name": "Picta",
+              "description": "Picta est une application java réalisée avec JavaFx afin de gérer des pictogrammes pour des personnes handicapées.",
+              "image": "/images/picta.png",
+              "link": "https://github.com/damiencren/Picta.git",
+              "type": "project",
+              "icones": [
+                {
+                  "name": "Java",
+                  "image": "/icones/java.png"
+                }
+              ]
             }
           ]
         ],
@@ -154,7 +168,7 @@
             {
               "id": 2,
               "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
+              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos avec leurs informations correspondantes.",
               "image": "/images/game_collection.png",
               "link": "https://github.com/txngUI/game_collection.git",
               "type": "project",
@@ -168,7 +182,7 @@
             {
               "id": 3,
               "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
+              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce avec ajout de nouvelles fonctionnalités comme un compte",
               "image": "/images/e-commerce.png",
               "link": "https://github.com/txngUI/e-commerce-website.git",
               "type": "code",
@@ -202,7 +216,8 @@
             "Déployer une solution digitale dans un environnement de production tel que railway",
             "Choisir la technologie adaptée au projet (NextJs, VueJs, AngularJS, PHP)",
             "Choisir entre un stockage de donnée sous forme de document ou table (NOSQL, SQL)",
-            "Réliser des rapport de couverture de test avec Jacoco"
+            "Réliser des rapport de couverture de test avec Jacoco",
+            "Réaliser une application sur Docker"
           ],
           [
             "Savoir quand et pourquoi architecturer un projet sous deux repertoire (front-end et backend)",
@@ -338,6 +353,24 @@
                 {
                   "name": "MongoDB",
                   "image": "/icones/mongodb.png"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "name": "logisticoTrain",
+              "description": "Application web capable de gérer un système ferroviaire, d'apprendre l'environnement docker.",
+              "image": "/images/logistico_train.png",
+              "link": "https://github.com/txngUI/logisticoTrain.git",
+              "type": "project",
+              "icones": [
+                {
+                  "name": "Python",
+                  "image": "/icones/python.png"
+                },
+                {
+                  "name": "Docker",
+                  "image": "/icones/docker.png"
                 }
               ]
             }
@@ -431,77 +464,33 @@
         ],
         [
           [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
+            "Savoir implémenter les concepts de Map et d'Arbres",
+            "Optimiser un problème complexe",
+            "Faire la différence entre central et acentrale",
+            "Faire la différence entre linked et array list",
+            "Implémenter une conception protégée du code",
+            "Implémenter les différentes cryptographies",
+            "Comprendre les différents hachages"
           ],
           [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
+            "Savoir évaluer l'impact environnemental et sociétal des solutions digitaux",
+            "Connaitre tous les paradigmes"
           ],
           [],
           [
             {
               "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
+              "name": "TP",
+              "description": "Graphe, Map et Optimisation",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "TD",
+              "description": "Cryptographies et hachages",
               "image": "",
               "link": "",
               "type": "simple",
@@ -511,148 +500,51 @@
         ],
         [
           [
-            "Implémenter une solution digitale avec des outils de bonnes pratiques tel qu’eslint",
-            "Développer un environnement de test d’une solution digitale web avec jest",
-            "Réaliser des tests unitaires pertinents qui couvre la totalité des fonctionnalités de l’application avec JUnit, Jacoco, AssertJ and Mackito",
-            "Déployer une solution digitale dans un environnement de production tel que railway",
-            "Choisir la technologie adaptée au projet (NextJs, VueJs, AngularJS, PHP)",
-            "Choisir entre un stockage de donnée sous forme de document ou table (NOSQL, SQL)",
-            "Réliser des rapport de couverture de test avec Jacoco"
+            "Réaliser du machine Learning avec les différents types de solution",
+            "Mettre en place différents algorithmes pour résoudre le problème du voyageur du commerce",
+            "Réaliser une comparaison de performance",
+            "Modéliser un environnement en 3D et en développer un Jeux Vidéo avec unreal engine",
+            "Automatiser des comportements dans un environnement de production"
           ],
           [
-            "Savoir quand et pourquoi architecturer un projet sous deux repertoire (front-end et backend)",
-            "Exécuter automatiquement des scripts avec des Git Hooks tel que Husky",
-            "Automatiser des audits, détecter les régressions de performances et analyser les résultat d’une solution avec Lighthouse CI"
+            "Analyser et jouer avec les métriques des différents algorithmes pour résoudre le problème du voyageur du commerce"
           ],
           [],
           [
             {
               "id": 1,
-              "name": "Rental Agency",
-              "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
-              "image": "/images/rental_agency.png",
-              "link": "https://github.com/txngUI/RentalAgency",
+              "name": "predict_human_age",
+              "description": "Machine learning pour prédire l'âge d'une personne à partir de caractéristiques biologiques, de son mode de vie, etc.",
+              "image": "/images/predict_age.png",
+              "link": "https://github.com/txngUI/predict_human_age.git",
               "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
+              "icones": []
             },
             {
               "id": 2,
-              "name": "TP AssertJ",
-              "description": "TP sur la librairie AssertJ pour apprendre à faire des tests unitaires plus poussés",
-              "image": "/images/assertj.png",
-              "link": "https://github.com/txngUI/TPAssertJ.git",
+              "name": "Path optimization",
+              "description": "Ce code met en oeuvre les différentes méthodes d'optimisation pour aller d'un point A à un point B en passant par des points intermédiaires.",
+              "image": "/images/optimize_paths.png",
+              "link": "https://github.com/txngUI/optimize_paths.git",
               "type": "code",
               "icones": [
                 {
                   "name": "Java",
                   "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
                 }
               ]
             },
             {
               "id": 3,
-              "name": "Compte Java",
-              "description": "TP sur les test unitaires en Java avec JUnit et AssertJ à travers un contecte de compte bancaire",
-              "image": "/images/account_bank.png",
-              "link": "https://github.com/txngUI/CompteJava.git",
+              "name": "TP Robot Framework",
+              "description": "Le Robot Framework tp m'a permis de mettre en pratique mes compétences en matière d'automatisation des lignes de production.",
+              "image": "/images/robot_framework.png",
+              "link": "https://github.com/txngUI/robot_framework_tp.git",
               "type": "code",
               "icones": [
                 {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "IUT LAVAL Gestion des notes",
-              "description": "Ce projet est une application web permettant de visualiser les notes des étudiants de l'IUT de Laval avec un espace compte professeur.",
-              "image": "/images/iut_grades.png",
-              "link": "https://github.com/EAnathos/iut-laval-grades-api-main.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "NextJS",
-                  "image": "/icones/nextjs.png"
-                },
-                {
-                  "name": "Jest",
-                  "image": "/icones/jest.png"
-                },
-                {
-                  "name": "PostgreSQL",
-                  "image": "/icones/postgresql.png"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Code Quality Testing Evaluation",
-              "description": "TP évalué de qualité de code avec des tests unitaires et des tests de performance ainsi que des audits",
-              "image": "/images/code_quality_testing_evaluation.png",
-              "link": "https://github.com/EAnathos/code-quality-testing-evaluation.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Javascript",
-                  "image": "/icones/javascript.png"
-                },
-                {
-                  "name": "ESlint",
-                  "image": "/icones/eslint.png"
-                }
-              ]
-            },
-            {
-              "id": 6,
-              "name": "Filmographie V2",
-              "description": "Projet Java qui utilise mongodb pour stocker des films et des acteurs",
-              "image": "/images/filmography_v2.png",
-              "link": "https://github.com/txngUI/filmographie_v2.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
-            },
-            {
-              "id": 7,
-              "name": "Games",
-              "description": "Projet qui réunit le craps, le 421 et le nombre mystère pour savoir utiliser java et mongodb ensemble.",
-              "image": "/images/games.png",
-              "link": "https://github.com/txngUI/games.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
+                  "name": "robot_framework",
+                  "image": "/icones/robot_framework.png"
                 }
               ]
             }
@@ -721,77 +613,30 @@
         ],
         [
           [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
+            "Permette à des rôles séparés d'un système informatique de communiquer entre eux",
+            "Mettre en place un environnement virtuel pour sécuriser, gérer et communiquer les éléments.",
+            "Organiser les différents rôles d’une machine virtuelle",
+            "Adapter la manière de concevoir le système au produit demandé",
+            "Contrôler l’accès aux différentes fonctionnalités de la virtual machine",
+            "Rédiger une documentation des étapes à suivre",
+            "Préciser les différentes erreurs possibles et les choix faits"
           ],
-          [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
-          ],
+          [],
           [],
           [
             {
               "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
+              "name": "TP réseau",
+              "description": "compréhension du réseau, des ip, masques, des interactions entre différents postes",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "TP Machine Virtuelle",
+              "description": "réaliser un système informatique virtuelle dans un contexte journaliste pour faire communiquer entre un askert, un brainer et un memory avec Docker, RabbitMQ et Python",
               "image": "",
               "link": "",
               "type": "simple",
@@ -1015,230 +860,42 @@
         ],
         [
           [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
+            "Créer des procédures paramétrées pour protéger des injection SQL",
+            "Mettre en place des triggers de protection de données",
+            "Pouvoir implémenter un modèle de donnée relationnel comme document (SQL comme NoSQL)",
+            "Protéger les données sensibles à afficher",
+            "Protéger les requêtes en ne mettant pas de donnée brut",
+            "Savoir utiliser MongoDB"
           ],
-          [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
-          ],
+          ["Utiliser TPH et MCD selon leur contexte", "Savoir utiliser Redis"],
           [],
           [
             {
               "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "TP SQL",
+              "description": "Créer des procédures stockées et des triggers",
               "image": "",
               "link": "",
               "type": "simple",
               "icones": []
-            }
-          ]
-        ],
-        [
-          [
-            "Implémenter une solution digitale avec des outils de bonnes pratiques tel qu’eslint",
-            "Développer un environnement de test d’une solution digitale web avec jest",
-            "Réaliser des tests unitaires pertinents qui couvre la totalité des fonctionnalités de l’application avec JUnit, Jacoco, AssertJ and Mackito",
-            "Déployer une solution digitale dans un environnement de production tel que railway",
-            "Choisir la technologie adaptée au projet (NextJs, VueJs, AngularJS, PHP)",
-            "Choisir entre un stockage de donnée sous forme de document ou table (NOSQL, SQL)",
-            "Réliser des rapport de couverture de test avec Jacoco"
-          ],
-          [
-            "Savoir quand et pourquoi architecturer un projet sous deux repertoire (front-end et backend)",
-            "Exécuter automatiquement des scripts avec des Git Hooks tel que Husky",
-            "Automatiser des audits, détecter les régressions de performances et analyser les résultat d’une solution avec Lighthouse CI"
-          ],
-          [],
-          [
-            {
-              "id": 1,
-              "name": "Rental Agency",
-              "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
-              "image": "/images/rental_agency.png",
-              "link": "https://github.com/txngUI/RentalAgency",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
             },
             {
               "id": 2,
-              "name": "TP AssertJ",
-              "description": "TP sur la librairie AssertJ pour apprendre à faire des tests unitaires plus poussés",
-              "image": "/images/assertj.png",
-              "link": "https://github.com/txngUI/TPAssertJ.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
+              "name": "TP Sécurité",
+              "description": "Connaitre et protéger des injections sql",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 3,
-              "name": "Compte Java",
-              "description": "TP sur les test unitaires en Java avec JUnit et AssertJ à travers un contecte de compte bancaire",
-              "image": "/images/account_bank.png",
-              "link": "https://github.com/txngUI/CompteJava.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "IUT LAVAL Gestion des notes",
-              "description": "Ce projet est une application web permettant de visualiser les notes des étudiants de l'IUT de Laval avec un espace compte professeur.",
-              "image": "/images/iut_grades.png",
-              "link": "https://github.com/EAnathos/iut-laval-grades-api-main.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "NextJS",
-                  "image": "/icones/nextjs.png"
-                },
-                {
-                  "name": "Jest",
-                  "image": "/icones/jest.png"
-                },
-                {
-                  "name": "PostgreSQL",
-                  "image": "/icones/postgresql.png"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Code Quality Testing Evaluation",
-              "description": "TP évalué de qualité de code avec des tests unitaires et des tests de performance ainsi que des audits",
-              "image": "/images/code_quality_testing_evaluation.png",
-              "link": "https://github.com/EAnathos/code-quality-testing-evaluation.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Javascript",
-                  "image": "/icones/javascript.png"
-                },
-                {
-                  "name": "ESlint",
-                  "image": "/icones/eslint.png"
-                }
-              ]
-            },
-            {
-              "id": 6,
-              "name": "Filmographie V2",
-              "description": "Projet Java qui utilise mongodb pour stocker des films et des acteurs",
-              "image": "/images/filmography_v2.png",
-              "link": "https://github.com/txngUI/filmographie_v2.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
-            },
-            {
-              "id": 7,
-              "name": "Games",
-              "description": "Projet qui réunit le craps, le 421 et le nombre mystère pour savoir utiliser java et mongodb ensemble.",
-              "image": "/images/games.png",
-              "link": "https://github.com/txngUI/games.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
+              "name": "TP Redis et MongoDB",
+              "description": "",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             }
           ]
         ]
@@ -1269,78 +926,29 @@
       "content": [
         [
           [
-            "Savoir implémenter des algorithmes récurrents et performants",
-            "Connaitre les différents concepts de la programmation orientée objet",
-            "Savoir appliquer les concepts de la programmation orientée objet",
-            "Comprendre le fonctionnement de la récursivité",
-            "Réaliser des algorithmes récursifs simples",
-            "Comprendre le fonctionnement de la dichotomie",
-            "Réaliser une solution ergonomique et intuitive"
+            "Rédiger un cahier des charges complet",
+            "Rédiger un dossier de spécifications complet",
+            "Créer des maquettes définissant le besoin",
+            "Maintenir une bonne communication entre les acteurs du projet",
+            "Anticiper les risques avec un diagramme d'Ishikawa",
+            "Identifier et organiser les différents cycles de développement"
           ],
-          [
-            "Déterminer les complexités des algorithmes",
-            "Comprendre les fonctionnement de tout les algorithmes de tris",
-            "Savoir optimiser une solution le plus possible",
-            "Réaliser des analyses poussées et comparatives de résultats par des graphiques et un compte rendu",
-            "Réaliser une solution adaptée à tout handicapes"
-          ],
+          ["Elaborer un diagramme de GANT", "Elaborer un diagramme de PERT"],
           [],
           [
             {
               "id": 1,
-              "name": "Dungeons",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/dungeon.png",
-              "link": "https://github.com/txngUI/Dungeon.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "Jeu du Morpion",
-              "description": "Réalisation d'un jeu de morpion afin de s'approprier le langage JavaFX qui permet de faire des interfaces et de pouvoir faciliter l'accès au jeux et la navigation.",
-              "image": "/images/tic-tac-toe.png",
-              "link": "https://github.com/txngUI/Tic-Tac-Toe.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Chez Tim",
-              "description": "Chez Tim est la maquette d'une application mobile permettant aux employés d'une pizzeria de gérer les commandes.",
-              "image": "/images/pizzaiolo.png",
-              "link": "https://www.figma.com/design/H4OVluG5YmXghhpL55i79q/applis?node-id=0-1&t=YxvVoNMLbtU1Vl30-1",
-              "type": "prototype",
+              "name": "SAE 2.05",
+              "description": "Rédaction d'un cahier des charges",
+              "image": "",
+              "link": "",
+              "type": "simple",
               "icones": []
             },
             {
-              "id": 4,
-              "name": "Filmothèque",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/filmotheque.png",
-              "link": "https://github.com/txngUI/Filmotheque.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Western Legacy",
-              "description": "Conception d'une programme réunissant tout les concepts de la Programmation orientée objet en java à travers un contexte de cowboys, sorciers etc.",
+              "id": 2,
+              "name": "SAE 2.06",
+              "description": "Réalisation des différents diagrammes permettant la gestion de projet dans un contexte d'organisation de portes ouverts",
               "image": "",
               "link": "",
               "type": "simple",
@@ -1350,77 +958,17 @@
         ],
         [
           [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
+            "Savoir définir un système d'information",
+            "Etablir les différents besoins d'un ERP",
+            "Cerner les différents rôles"
           ],
-          [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
-          ],
+          ["Capable de créer et déployer un ERP"],
           [],
           [
             {
               "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "Cour sur le système d'information",
+              "description": "gestion de projet d'un système d'informations et des ERP",
               "image": "",
               "link": "",
               "type": "simple",
@@ -1611,78 +1159,18 @@
       "content": [
         [
           [
-            "Savoir implémenter des algorithmes récurrents et performants",
-            "Connaitre les différents concepts de la programmation orientée objet",
-            "Savoir appliquer les concepts de la programmation orientée objet",
-            "Comprendre le fonctionnement de la récursivité",
-            "Réaliser des algorithmes récursifs simples",
-            "Comprendre le fonctionnement de la dichotomie",
-            "Réaliser une solution ergonomique et intuitive"
+            "Etablir les différents rôles et fonctions dans une équipe",
+            "Capable d'identifier les points forts et les points faibles d'un équipier",
+            "Estimer correctement son temps de travail ainsi que ses compétences",
+            "Chaque co-équipiers a son utilisé et les mettent en communs et de capable de lier les aptitudes requises"
           ],
-          [
-            "Déterminer les complexités des algorithmes",
-            "Comprendre les fonctionnement de tout les algorithmes de tris",
-            "Savoir optimiser une solution le plus possible",
-            "Réaliser des analyses poussées et comparatives de résultats par des graphiques et un compte rendu",
-            "Réaliser une solution adaptée à tout handicapes"
-          ],
+          [],
           [],
           [
             {
-              "id": 1,
-              "name": "Dungeons",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/dungeon.png",
-              "link": "https://github.com/txngUI/Dungeon.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "Jeu du Morpion",
-              "description": "Réalisation d'un jeu de morpion afin de s'approprier le langage JavaFX qui permet de faire des interfaces et de pouvoir faciliter l'accès au jeux et la navigation.",
-              "image": "/images/tic-tac-toe.png",
-              "link": "https://github.com/txngUI/Tic-Tac-Toe.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Chez Tim",
-              "description": "Chez Tim est la maquette d'une application mobile permettant aux employés d'une pizzeria de gérer les commandes.",
-              "image": "/images/pizzaiolo.png",
-              "link": "https://www.figma.com/design/H4OVluG5YmXghhpL55i79q/applis?node-id=0-1&t=YxvVoNMLbtU1Vl30-1",
-              "type": "prototype",
-              "icones": []
-            },
-            {
-              "id": 4,
-              "name": "Filmothèque",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/filmotheque.png",
-              "link": "https://github.com/txngUI/Filmotheque.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
               "id": 5,
-              "name": "Western Legacy",
-              "description": "Conception d'une programme réunissant tout les concepts de la Programmation orientée objet en java à travers un contexte de cowboys, sorciers etc.",
+              "name": "SAE 1.06",
+              "description": "Créer une équipe de projet dans le contexte de l'entreprise de Bouygues Batiment, lien des documents : https://www.mediafire.com/folder/onlhtb8xzf8zj/SAE_1.06",
               "image": "",
               "link": "",
               "type": "simple",
@@ -1692,77 +1180,25 @@
         ],
         [
           [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
+            "Savoir ce qu'est un DSI",
+            "Savoir ce qu'est un ERP",
+            "Savoir ce qu'est une ESN",
+            "Construire une équipe diversifiée",
+            "Combiner les compétences des différentes personnes",
+            "Pouvoir rédiger un résumé, une introduction et une conclusion d’un travail fait lors d’une alternance",
+            "Rendre compte d’un tutoriel et d’une documentation d’une mise en place sur une Machine Virtuelle",
+            "Expliquer et montrer ses travaux durant une alternance."
           ],
           [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
+            "Etablir le rôle d'une équipe informatique",
+            "Hiérarchiser et diversifier les rôles"
           ],
           [],
           [
             {
               "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "Alternance",
+              "description": "Réalisation du rapport de ma mission à Transports CHABAS Fraicheur où je développer un site intranet aidant à la saisie et l'analyse de données",
               "image": "",
               "link": "",
               "type": "simple",
@@ -1772,150 +1208,25 @@
         ],
         [
           [
-            "Implémenter une solution digitale avec des outils de bonnes pratiques tel qu’eslint",
-            "Développer un environnement de test d’une solution digitale web avec jest",
-            "Réaliser des tests unitaires pertinents qui couvre la totalité des fonctionnalités de l’application avec JUnit, Jacoco, AssertJ and Mackito",
-            "Déployer une solution digitale dans un environnement de production tel que railway",
-            "Choisir la technologie adaptée au projet (NextJs, VueJs, AngularJS, PHP)",
-            "Choisir entre un stockage de donnée sous forme de document ou table (NOSQL, SQL)",
-            "Réliser des rapport de couverture de test avec Jacoco"
+            "Créer un projet et le plannifier",
+            "Gérer une équipe en fonction des différents types de profils",
+            "Identifier l'économie des start up et des nouvelles technologies",
+            "Gérer la communication d'un projet et ses acteurs",
+            "Identifier les enjeux sociétal de l'ia et des chatbots"
           ],
           [
-            "Savoir quand et pourquoi architecturer un projet sous deux repertoire (front-end et backend)",
-            "Exécuter automatiquement des scripts avec des Git Hooks tel que Husky",
-            "Automatiser des audits, détecter les régressions de performances et analyser les résultat d’une solution avec Lighthouse CI"
+            "Identifier les différentes étapes et les besoin de l'entrepreunariat"
           ],
           [],
           [
             {
               "id": 1,
-              "name": "Rental Agency",
-              "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
-              "image": "/images/rental_agency.png",
-              "link": "https://github.com/txngUI/RentalAgency",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "TP AssertJ",
-              "description": "TP sur la librairie AssertJ pour apprendre à faire des tests unitaires plus poussés",
-              "image": "/images/assertj.png",
-              "link": "https://github.com/txngUI/TPAssertJ.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Compte Java",
-              "description": "TP sur les test unitaires en Java avec JUnit et AssertJ à travers un contecte de compte bancaire",
-              "image": "/images/account_bank.png",
-              "link": "https://github.com/txngUI/CompteJava.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "IUT LAVAL Gestion des notes",
-              "description": "Ce projet est une application web permettant de visualiser les notes des étudiants de l'IUT de Laval avec un espace compte professeur.",
-              "image": "/images/iut_grades.png",
-              "link": "https://github.com/EAnathos/iut-laval-grades-api-main.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "NextJS",
-                  "image": "/icones/nextjs.png"
-                },
-                {
-                  "name": "Jest",
-                  "image": "/icones/jest.png"
-                },
-                {
-                  "name": "PostgreSQL",
-                  "image": "/icones/postgresql.png"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Code Quality Testing Evaluation",
-              "description": "TP évalué de qualité de code avec des tests unitaires et des tests de performance ainsi que des audits",
-              "image": "/images/code_quality_testing_evaluation.png",
-              "link": "https://github.com/EAnathos/code-quality-testing-evaluation.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Javascript",
-                  "image": "/icones/javascript.png"
-                },
-                {
-                  "name": "ESlint",
-                  "image": "/icones/eslint.png"
-                }
-              ]
-            },
-            {
-              "id": 6,
-              "name": "Filmographie V2",
-              "description": "Projet Java qui utilise mongodb pour stocker des films et des acteurs",
-              "image": "/images/filmography_v2.png",
-              "link": "https://github.com/txngUI/filmographie_v2.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
-            },
-            {
-              "id": 7,
-              "name": "Games",
-              "description": "Projet qui réunit le craps, le 421 et le nombre mystère pour savoir utiliser java et mongodb ensemble.",
-              "image": "/images/games.png",
-              "link": "https://github.com/txngUI/games.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
+              "name": "Anglais ",
+              "description": "Articles et débats sur l'impact de l'IA sur la société",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             }
           ]
         ]
@@ -1927,7 +1238,7 @@
       "name": "Compétence 7 : Culture Générale",
       "year": [1, 2, 3],
       "targets": [
-        "Mieux s'informer sur l'actualité, développer sa culture cinématographique et développer sa compréhension orale en anglai",
+        "Mieux s'informer sur l'actualité, développer sa culture cinématographique et développer sa compréhension orale en anglais",
         "Développer sa culture géographique en france et politique",
         "Développer son sens culinaire et manger responsable ainsi que continuer à développer sa culture cinématorgraphique"
       ],
@@ -1935,311 +1246,178 @@
       "content": [
         [
           [
-            "Savoir implémenter des algorithmes récurrents et performants",
-            "Connaitre les différents concepts de la programmation orientée objet",
-            "Savoir appliquer les concepts de la programmation orientée objet",
-            "Comprendre le fonctionnement de la récursivité",
-            "Réaliser des algorithmes récursifs simples",
-            "Comprendre le fonctionnement de la dichotomie",
-            "Réaliser une solution ergonomique et intuitive"
+            "Capacité à développer une conversation en anglais avec des phrases complexes",
+            "Capacité à donner un avis constructif sur une série / un film",
+            "Se met à jour sur l'actualité régulièrement et peut en parler aisément",
+            "Peut résumer brièvement une écoute oral en anglais",
+            "Regarde les films du moment à ne pas louper"
           ],
           [
-            "Déterminer les complexités des algorithmes",
-            "Comprendre les fonctionnement de tout les algorithmes de tris",
-            "Savoir optimiser une solution le plus possible",
-            "Réaliser des analyses poussées et comparatives de résultats par des graphiques et un compte rendu",
-            "Réaliser une solution adaptée à tout handicapes"
+            "Capacité à regarder une série ou un film anglais(e) avec sous titre",
+            "Peut évoquer la plupart des scénaristes et des acteurs célèbres",
+            "A regardé les films cultes francais"
           ],
           [],
           [
             {
               "id": 1,
-              "name": "Dungeons",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/dungeon.png",
-              "link": "https://github.com/txngUI/Dungeon.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "Jeu du Morpion",
-              "description": "Réalisation d'un jeu de morpion afin de s'approprier le langage JavaFX qui permet de faire des interfaces et de pouvoir faciliter l'accès au jeux et la navigation.",
-              "image": "/images/tic-tac-toe.png",
-              "link": "https://github.com/txngUI/Tic-Tac-Toe.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Chez Tim",
-              "description": "Chez Tim est la maquette d'une application mobile permettant aux employés d'une pizzeria de gérer les commandes.",
-              "image": "/images/pizzaiolo.png",
-              "link": "https://www.figma.com/design/H4OVluG5YmXghhpL55i79q/applis?node-id=0-1&t=YxvVoNMLbtU1Vl30-1",
-              "type": "prototype",
-              "icones": []
-            },
-            {
-              "id": 4,
-              "name": "Filmothèque",
-              "description": "Dungeon est un projet Java avec plusieurs schémas de donjon pour apprendre à mettre en œuvre des algorithmes tels que A*.",
-              "image": "/images/filmotheque.png",
-              "link": "https://github.com/txngUI/Filmotheque.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Western Legacy",
-              "description": "Conception d'une programme réunissant tout les concepts de la Programmation orientée objet en java à travers un contexte de cowboys, sorciers etc.",
+              "name": "Autre : Visite à Paris",
+              "description": "S'informer de la manière dont est géré le Sénat, visite du lieu Culturel Les Invalides ou encore en apprendre plus sur l'Art avec le musée d'Orsay.",
               "image": "",
               "link": "",
               "type": "simple",
               "icones": []
-            }
-          ]
-        ],
-        [
-          [
-            "Implémenter des fonctionnalités à partir d'un cahier des charges",
-            "Appliquer une logique ergonomique (éviter la surcharge d'informations, optimisation)",
-            "Documenter un code de manière publique et privée",
-            "Appliquer le modèle MVC (Models, Views, Controllers)",
-            "Savoir quel patron de conception choisir",
-            "Utiliser des API dynamique et statiques",
-            "Faire evoluer un code déjà existant",
-            "Réaliser des tests pertinents, négatif ou positifs avec Apache JMeter",
-            "Adopter la méthode SOLID"
-          ],
-          [
-            "Connaitre tout les patrons de conception",
-            "Savoir appliquer les patrons de conception les plus connus",
-            "Connaître et appliquer nos obligations d'accessibilité et d'ergonomies à nos solutions"
-          ],
-          [],
-          [
-            {
-              "id": 1,
-              "name": "Champs&Cie",
-              "description": "Champs&Cie est une application mobile permettant de rechercher et visualiser tous les personnages du jeu vidéo League of Legends.",
-              "image": "/images/champs_cie.png",
-              "link": "https://github.com/txngUI/ChampsEtCie.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "Android Studio",
-                  "image": "/icones/android_studio.png"
-                }
-              ]
             },
             {
               "id": 2,
-              "name": "GameCollection",
-              "description": "Réalisation d'une application web en PHP qui permet d'avoir une librairie de jeux vidéos",
-              "image": "/images/game_collection.png",
-              "link": "https://github.com/txngUI/game_collection.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Site e-commerce",
-              "description": "Faire évoluer une application web PHP avec Symfony pour un site e-commerce",
-              "image": "/images/e-commerce.png",
-              "link": "https://github.com/txngUI/e-commerce-website.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "PHP",
-                  "image": "/icones/php.png"
-                },
-                {
-                  "name": "Symfony",
-                  "image": "/icones/symfony.png"
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "name": "TP design patternes",
-              "description": "Cour universitaire sur les différents patrons de conceptions existants",
+              "name": "Actualité : Abonnement au journaliste Hugo Décrypte",
+              "description": "présent sur les réseaux sociaux (Instagram, YouTube, Tik Tok), propose différents formats tel que des formats de 2 minutes présentant les nouvelles chaque jour.",
               "image": "",
               "link": "",
               "type": "simple",
               "icones": []
-            }
-          ]
-        ],
-        [
-          [
-            "Implémenter une solution digitale avec des outils de bonnes pratiques tel qu’eslint",
-            "Développer un environnement de test d’une solution digitale web avec jest",
-            "Réaliser des tests unitaires pertinents qui couvre la totalité des fonctionnalités de l’application avec JUnit, Jacoco, AssertJ and Mackito",
-            "Déployer une solution digitale dans un environnement de production tel que railway",
-            "Choisir la technologie adaptée au projet (NextJs, VueJs, AngularJS, PHP)",
-            "Choisir entre un stockage de donnée sous forme de document ou table (NOSQL, SQL)",
-            "Réliser des rapport de couverture de test avec Jacoco"
-          ],
-          [
-            "Savoir quand et pourquoi architecturer un projet sous deux repertoire (front-end et backend)",
-            "Exécuter automatiquement des scripts avec des Git Hooks tel que Husky",
-            "Automatiser des audits, détecter les régressions de performances et analyser les résultat d’une solution avec Lighthouse CI"
-          ],
-          [],
-          [
-            {
-              "id": 1,
-              "name": "Rental Agency",
-              "description": "Système de location de véhicules en Java appliquant la POO et les tests unitaires avec JUnit, AssertJ, Mockito et Jacoco.",
-              "image": "/images/rental_agency.png",
-              "link": "https://github.com/txngUI/RentalAgency",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "TP AssertJ",
-              "description": "TP sur la librairie AssertJ pour apprendre à faire des tests unitaires plus poussés",
-              "image": "/images/assertj.png",
-              "link": "https://github.com/txngUI/TPAssertJ.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
             },
             {
               "id": 3,
-              "name": "Compte Java",
-              "description": "TP sur les test unitaires en Java avec JUnit et AssertJ à travers un contecte de compte bancaire",
-              "image": "/images/account_bank.png",
-              "link": "https://github.com/txngUI/CompteJava.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "JUnit",
-                  "image": "/icones/junit.png"
-                }
-              ]
+              "name": "Anglais : Duolingo",
+              "description": "Cours de 20 minutes tous les jours. Travail l’anglais écrit et oral.",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 4,
-              "name": "IUT LAVAL Gestion des notes",
-              "description": "Ce projet est une application web permettant de visualiser les notes des étudiants de l'IUT de Laval avec un espace compte professeur.",
-              "image": "/images/iut_grades.png",
-              "link": "https://github.com/EAnathos/iut-laval-grades-api-main.git",
-              "type": "project",
-              "icones": [
-                {
-                  "name": "NextJS",
-                  "image": "/icones/nextjs.png"
-                },
-                {
-                  "name": "Jest",
-                  "image": "/icones/jest.png"
-                },
-                {
-                  "name": "PostgreSQL",
-                  "image": "/icones/postgresql.png"
-                }
-              ]
+              "name": "Anglais : Netflix / Prime Vidéo",
+              "description": "Regarder les séries et films en anglais sous-titrés pour s’améliorer à la compréhension orale qui est une de mes grandes lacunes.",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 5,
-              "name": "Code Quality Testing Evaluation",
-              "description": "TP évalué de qualité de code avec des tests unitaires et des tests de performance ainsi que des audits",
-              "image": "/images/code_quality_testing_evaluation.png",
-              "link": "https://github.com/EAnathos/code-quality-testing-evaluation.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Javascript",
-                  "image": "/icones/javascript.png"
-                },
-                {
-                  "name": "ESlint",
-                  "image": "/icones/eslint.png"
-                }
-              ]
+              "name": "Culture cinématographique : Le journal Hugo Décrypte",
+              "description": "fait aussi des formats vidéos mettant en avant des personnes connues tels que des acteurs à l’occasion du festival de Cannes ou propose des interviews",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             },
             {
               "id": 6,
-              "name": "Filmographie V2",
-              "description": "Projet Java qui utilise mongodb pour stocker des films et des acteurs",
-              "image": "/images/filmography_v2.png",
-              "link": "https://github.com/txngUI/filmographie_v2.git",
-              "type": "code",
+              "name": "Culture cinématographique :  Regarder les films du moment à ne pas louper (exemple récent : avatar 2)",
+              "description": "",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            }
+          ]
+        ],
+        [
+          [
+            "Situer tout les départements de France",
+            "Suivre l'actualité politique",
+            "Lire un livre en anglais"
+          ],
+          [
+            "Connaitre tout les codes des départements de France",
+            "Apprendre l'espagnol (dans le but de voyager)",
+            "Se situer dans la politique et cerner les différents partis"
+          ],
+          ["Situer tout les états des états unis"],
+          [
+            {
+              "id": 1,
+              "name": "Lire livre en anglais",
+              "description": "Alice au pays des merveilles, Petit Prince",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            },
+            {
+              "id": 2,
+              "name": "Connaitres les départements de France",
+              "description": "site geoguessr",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            },
+            {
+              "id": 3,
+              "name": "Duolingo",
+              "description": "suivi de cours espagnols",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            },
+            {
+              "id": 4,
+              "name": "Actualité politique",
+              "description": "Abonnement à Hugo Décrypte",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            }
+          ]
+        ],
+        [
+          [
+            "Privilégier le circuit court pour manger",
+            "Cuisiner de plus en plus et diverses recettes",
+            "S'informer sur les nutriments bon pour la santé et ceux nécessaires pour élaborer des meilleurs repas",
+            "Augmenter sa culture cinématographique à propos des séries",
+            "Découvrir de nouvelles technologies de développement"
+          ],
+          [
+            "Identifier les différentes étapes et les besoin de l'entrepreunariat"
+          ],
+          [],
+          [
+            {
+              "id": 1,
+              "name": "RecipeHub",
+              "description": "Application web qui répertorie vos recettes et équipements de cuisine et vous permet de préparer vos listes de courses et vos repas.",
+              "image": "/images/recipe_hub.png",
+              "link": "https://github.com/txngUI/recipehub.git",
+              "type": "project",
               "icones": [
+                {
+                  "name": "Angular",
+                  "image": "/icones/angular.png"
+                },
                 {
                   "name": "Java",
                   "image": "/icones/java.png"
                 },
                 {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
+                  "name": "Spring",
+                  "image": "/icones/spring.png"
                 }
               ]
             },
             {
-              "id": 7,
-              "name": "Games",
-              "description": "Projet qui réunit le craps, le 421 et le nombre mystère pour savoir utiliser java et mongodb ensemble.",
-              "image": "/images/games.png",
-              "link": "https://github.com/txngUI/games.git",
-              "type": "code",
-              "icones": [
-                {
-                  "name": "Java",
-                  "image": "/icones/java.png"
-                },
-                {
-                  "name": "MongoDB",
-                  "image": "/icones/mongodb.png"
-                }
-              ]
+              "id": 2,
+              "name": "Netflix & Prime Vidéo",
+              "description": "Supernatural, Reacher, The night agent, Kingsman, Star Wars",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
+            },
+            {
+              "id": 3,
+              "name": "Outils de cuisine",
+              "description": "Livre de cuisine, Jow",
+              "image": "",
+              "link": "",
+              "type": "simple",
+              "icones": []
             }
           ]
         ]

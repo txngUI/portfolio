@@ -34,7 +34,7 @@ export default function Studies() {
           linkTitle="Voir l'établissement"
         />
         <TimelineItem
-          time={"2022 - 2025"}
+          time={"2022 - En cours (fin 2025)"}
           title={"BUT Informatique"}
           subtitle={"Institut Universitaire de Technologie de Laval (53)"}
           body={
