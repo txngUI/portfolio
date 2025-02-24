@@ -8,8 +8,8 @@ type AcademicYear = {
   name: string;
 };
 
-export default function SwitchYear() {
-  const { academicYear, setAcademicYear } = useParamsUniversityStore();
+export default function SwitchYear({ year }: { year: number }) {
+  const { setAcademicYear } = useParamsUniversityStore();
 
   const years: AcademicYear[] = [
     {
@@ -38,7 +38,7 @@ export default function SwitchYear() {
             router.refresh();
           }}
           className={`flex items-center px-4 py-2 border-[1px] border-bordercolor rounded-md bg-background hover:bg-bordercolor hover:border-background transition-colors ${
-            academicYear === y.id ? "bg-bordercolor border-none" : ""
+            year === y.id ? "bg-bordercolor border-none" : ""
           }`}
         >
           {y.name}
