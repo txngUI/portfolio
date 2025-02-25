@@ -30,7 +30,7 @@ export default function About() {
         me spécialise dans la conception et la réalisation d&apos;applications
         web et logicielles. Côté back-end, j&apos;exploite principalement
         le langage{" "}
-        <span className="inline-flex translate-y-1 items-center justify-between rounded border border-neutral-200 bg-neutral-50 mr-1 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        <span className="inline-flex translate-y-2 items-center justify-between rounded border border-neutral-200 bg-neutral-50 mr-1 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="Java"
             src="/icones/java.png"
@@ -40,7 +40,7 @@ export default function About() {
             className="mr-2"
           />
           Java
-        </span> et son écosystème, tandis que pour le front-end, j&apos;utilise les langages  <span className="inline-flex translate-y-1 items-center rounded border border-neutral-200 bg-neutral-50 mr-1 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        </span> et son écosystème, tandis que pour le front-end, j&apos;utilise les langages  <span className="inline-flex translate-y-2 items-center rounded border border-neutral-200 bg-neutral-50 mr-1 p-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="React"
             src="/icones/react.png"
@@ -50,8 +50,8 @@ export default function About() {
             className="mr-2"
           />
           React
-        </span> et
-        <span className="inline-flex translate-y-1 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        </span> et{" "}
+        <span className="inline-flex translate-y-2 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="Angular"
             src="/icones/angular.png"
@@ -61,7 +61,7 @@ export default function About() {
             className="mr-2"
           />
           Angular
-        </span> et l&apos;outil <span className="inline-flex translate-y-1 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        </span> et l&apos;outil <span className="inline-flex translate-y-2 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="Tailwind"
             src="/icones/tailwindcss.png"
@@ -73,7 +73,7 @@ export default function About() {
           Tailwind
         </span> afin de concevoir des interfaces
         modernes et performantes. J&apos;utilise également des technologies tel
-        que <span className="inline-flex translate-y-1 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        que <span className="inline-flex translate-y-2 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="Git"
             src="/icones/git.png"
@@ -83,7 +83,7 @@ export default function About() {
             className="mr-2"
           />
           Git
-        </span> et <span className="inline-flex translate-y-1 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
+        </span> et <span className="inline-flex translate-y-2 items-center rounded border border-neutral-200 bg-neutral-50 p-1 mr-1 text-sm leading-4 text-neutral-900 no-underline dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-100">
           <Image
             key="Docker"
             src="/icones/docker.png"
