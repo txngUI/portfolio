@@ -33,7 +33,7 @@ export default function SwitchSkill({
 
   return (
     <div className="w-5/6">
-      <div className="w-full flex justify-evenly items-center mt-6">
+      <div className="w-full flex flex-col 2xl:flex-row justify-evenly text-center items-center mt-6">
         {abilities.map(
           (e) =>
             e.year.includes(academicYear) && (
@@ -44,16 +44,15 @@ export default function SwitchSkill({
                   setSkill(e.id); // Met à jour dans le store global
                   router.refresh();
                 }}
-                className={`flex items-center w-fit h-fit text-sm px-4 py-2 border-[1px] border-bordercolor rounded-md bg-background hover:bg-bordercolor hover:border-background transition-colors ${
+                className={`flex items-center 2xl:w-fit h-fit text-sm px-4 py-2 mt-2 w-72 2xl:mt-0 border-[1px] border-bordercolor rounded-md bg-background hover:bg-bordercolor hover:border-background transition-colors ${
                   selectedSkill === e.id ? "bg-bordercolor border-none" : ""
                 }`}
               >
-                {e.ability}
+                <p className="w-full text-center">{e.ability}</p>
               </button>
             )
         )}
       </div>
-     
     </div>
   );
 }

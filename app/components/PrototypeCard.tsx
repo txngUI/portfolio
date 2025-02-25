@@ -13,7 +13,7 @@ type PrototypeCardProps = {
 
 export default function PrototypeCard({ project }: PrototypeCardProps) {
   return (
-      <div className="flex flex-col items-center border-2 border-bordercolor rounded-[10px]">
+      <div className="flex flex-col  max-w-64 items-center border-2 border-bordercolor rounded-[10px]">
         <Image
           src={project.image}
           alt={project.name}

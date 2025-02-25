@@ -74,7 +74,7 @@ export default function Projects() {
           Prototypes
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 self-center w-full px-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-4 self-center w-full px-4">
         {selected.map((project) =>
           project.type === "prototype" ? (
             <PrototypeCard key={project.id} project={project} />

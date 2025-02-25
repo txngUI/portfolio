@@ -22,7 +22,7 @@ export default async function Home() {
     <div>
       <Announce />
       <ThemeToggle />
-      <main className="w-4/5 mx-auto">
+      <main className="px-4 md:w-4/5 mx-auto">
         <ToggleSwitch />
         <div className="w-full flex flex-col items-center justify-center">
           <SwitchYear year={academicYear} />

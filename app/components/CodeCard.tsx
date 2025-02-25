@@ -27,9 +27,9 @@ export default function CodeCard({ project }: CodeCardProps) {
         {project.name}
       </h4>
       <p className="text-justify text-sm px-2">{project.description}</p>
-      <div className="flex flex-row justify-between items-center w-full h-fit p-2">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full h-fit p-2">
         <GithubLink link={project.link} />
-        <div className="flex items-center">
+        <div className="flex items-center mt-4 md:mt-0">
           {project.icones.map((icone) => (
             <Image
               key={icone.name}

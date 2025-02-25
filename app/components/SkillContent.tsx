@@ -60,10 +60,10 @@ export default function SkillContent({
 
   return (
     <div className="w-full flex flex-col items-center justify-center mb-8">
-      <p className="w-full text-center mt-4 text-2xl">{name}</p>
+      <p className="w-full text-center mt-4 text-4xl">{name}</p>
 
       <div className="w-full mt-4">
-        <p className="text-center mb-4">L&apos;objectif est : {target}</p>
+        <p className="text-left md:text-center text-xl mb-4"><u>L&apos;objectif est : {target}</u></p>
 
         {learnings.length > 0 && (
           <div>
@@ -119,7 +119,7 @@ export default function SkillContent({
       {yearContent[3].length > 0 && (
         <p className="text-xl mt-8 mb-8 text-left w-full">Traces :</p>
       )}
-      <div className="w-1/2">
+      <div className="w-2/3">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 self-center w-full px-4">
           {yearContent[3].map((e) => {
             const project = e as Project;
@@ -135,7 +135,7 @@ export default function SkillContent({
             const project = e as Project;
             if (project.type === "simple") {
               return (
-                <p key={project.id}>
+                <p key={project.id} className="text-left w-full break-all">
                   <b>{project.name}</b> : {project.description}
                 </p>
               );
