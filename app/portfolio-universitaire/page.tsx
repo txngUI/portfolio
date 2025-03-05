@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import SwitchSkill from "../components/SwitchSkill";
 import SkillContent from "../components/SkillContent";
 import Footer from "../components/Footer";
+import FilesToDownload from "../components/FilesToDownload";
 
 export default async function Home() {
   const cookiesStorage = await cookies();
@@ -25,7 +26,10 @@ export default async function Home() {
       <main className="px-4 md:w-4/5 mx-auto">
         <ToggleSwitch />
         <div className="w-full flex flex-col items-center justify-center">
-          <SwitchYear year={academicYear} />
+          <div className="w-full flex flex-row items-center justify-center">
+            <SwitchYear year={academicYear} />
+            <FilesToDownload />
+          </div>
           <SwitchSkill academicYear={academicYear} skill={skill} />
           <SkillContent academicYear={academicYear} skill={skill} />
           <Footer />
