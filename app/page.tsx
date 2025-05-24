@@ -12,7 +12,7 @@ import Studies from "./components/Studies";
 export default function Home() {
   return (
     <div>
-      <Announce />
+      {/* <Announce /> */}
       <ThemeToggle />
       <ToggleSwitch />
       <main className="w-1/2 mx-auto mt-10">
